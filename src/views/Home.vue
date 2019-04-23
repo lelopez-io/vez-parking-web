@@ -1,15 +1,19 @@
 <template>
-  <div class="home"></div>
+  <div class="home">
+    <Hero />
+  </div>
 </template>
 
 <script>
 // @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue'
+import Hero from '@/components/Hero.vue'
 
 export default {
   name: 'home',
   components: {
-    // HelloWorld
+    Hero
   }
 }
 </script>
+
+<style lang="scss" scoped></style>
