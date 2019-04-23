@@ -1,23 +1,29 @@
 <template>
   <div id="header">
-    <router-link to="/" class="logo">
-      <img alt="VEZ Parking logo" src="@/assets/logo.png" />
-      <!-- <div class="name">VEZ Parking</div> -->
-    </router-link>
-    <ul class="nav-links">
-      <router-link to="/" title="Home">Home</router-link>
-      <router-link to="/about" title="About">About</router-link>
-      <router-link to="/login" title="Login">Login</router-link>
-    </ul>
+    <div class="container">
+      <router-link to="/" class="logo">
+        <img alt="VEZ Parking logo" src="@/assets/logo.png" />
+        <!-- <div class="name">VEZ Parking</div> -->
+      </router-link>
+      <ul class="nav-links">
+        <router-link to="/" title="Home">Home</router-link>
+        <router-link to="/about" title="About">About</router-link>
+        <router-link to="/login" title="Login">Login</router-link>
+      </ul>
+    </div>
   </div>
 </template>
 
 <style lang="scss" scoped>
 $logo-size: 30px;
-// $background-color: #134d60;
-$background-color: #e6f5f2;
-$text-color: #134d60;
-$text-color-active: #2c3e50;
+$light-mint: #e6f5f2;
+$mint: #c1e7df;
+$dark-blue: #134d60;
+$slate-gray: #2c3e50;
+
+$background-color: $slate-gray;
+$text-color: $mint;
+$text-color-active: white;
 
 #header {
   //make it fixed
@@ -29,6 +35,11 @@ $text-color-active: #2c3e50;
   width: 100vw;
   //style it
   background-color: $background-color;
+}
+
+.container {
+  max-width: 1032px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   & * {
@@ -57,21 +68,11 @@ $text-color-active: #2c3e50;
   padding-left: 10px;
 }
 
-// .nav-links > *:after {
-//   display: block;
-//   content: attr(title);
-//   font-weight: bold;
-//   height: 0;
-//   overflow: hidden;
-//   visibility: hidden;
-// }
-
 .nav-links > *:hover {
   color: $text-color-active;
 }
 
 .router-link-exact-active {
   color: $text-color-active;
-  text-decoration: underline !important;
 }
 </style>

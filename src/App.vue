@@ -35,6 +35,7 @@ body {
 
 //this accounts for the header having a fixed position
 #view-container {
-  margin-top: 50px;
+  max-width: 1032px;
+  margin: 50px auto 0;
 }
 </style>
