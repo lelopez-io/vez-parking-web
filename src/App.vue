@@ -29,7 +29,7 @@ body {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  text-align: left;
   color: #2c3e50;
 }
 
@@ -37,5 +37,6 @@ body {
 #view-container {
   max-width: 1032px;
   margin: 50px auto 0;
+  padding: 0 20px;
 }
 </style>
