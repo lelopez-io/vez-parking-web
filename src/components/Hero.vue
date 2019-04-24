@@ -9,7 +9,7 @@
         <div class="option-1">
           <h2>Self Park</h2>
           <p>Find parking easily</p>
-          <button>Find Nearby Parking</button>
+          <button>Find Parking</button>
         </div>
         <div class="option-2">
           <h2>Coordinate</h2>
@@ -27,7 +27,7 @@
 
 <style lang="scss" scoped>
 #hero {
-  padding: 0 40px;
+  padding: 0;
   display: flex;
 
   & > * {
