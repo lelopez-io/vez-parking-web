@@ -28,6 +28,7 @@
 <style lang="scss" scoped>
 $slate-gray: #2c3e50;
 $mint: #c1e7df;
+$dark-blue: #134d60;
 
 #hero {
   padding: 0;
@@ -60,14 +61,14 @@ $mint: #c1e7df;
 
   button {
     display: inline-block;
-    border: 2px solid $slate-gray;
+    border: 2px solid $dark-blue;
     padding: 1rem 2rem;
     margin: 0;
     bottom: 0;
 
     text-decoration: none;
     background: white;
-    color: $slate-gray;
+    color: $dark-blue;
     font-family: sans-serif;
     font-size: 1rem;
     cursor: pointer;
@@ -79,6 +80,7 @@ $mint: #c1e7df;
 
   button:hover {
     background: $slate-gray;
+    border: 2px solid $slate-gray;
     color: $mint;
   }
 
