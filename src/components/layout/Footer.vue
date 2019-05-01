@@ -7,16 +7,20 @@
       </router-link>
       <p>by</p>
       <ul class="nav-links">
-        <router-link to="https://www.linkedin.com/in/lelopez6/" title="Luis"
-          >Luis E. Lopez</router-link
+        <a
+          href="https://www.linkedin.com/in/lelopez-io/"
+          target="_blank"
+          title="Luis"
+          >Luis E. Lopez</a
         >
-        <router-link to="#" title="Albert">Albert Philen</router-link>
-        <router-link
-          to="https://www.linkedin.com/in/mark-riddell-382805175/"
+        <a href="#footer" title="Albert">Albert Philen</a>
+        <a
+          href="https://www.linkedin.com/in/mark-riddell-382805175/"
+          target="_blank"
           title="Mark"
-          >Mark Riddell</router-link
+          >Mark Riddell</a
         >
-        <router-link to="#" title="Matthew">Matthew Hunter</router-link>
+        <a href="#footer" title="Matthew">Matthew Hunter</a>
       </ul>
     </div>
   </div>
@@ -53,7 +57,7 @@ $text-color-active: white;
   color: white;
   & * {
     display: flex;
-    // text-decoration: none;
+    text-decoration: none;
   }
 }
 
