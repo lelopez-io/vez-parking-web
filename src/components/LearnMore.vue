@@ -21,7 +21,6 @@
 
     & > * {
       max-width: 50%;
-      padding: 0 15px;
     }
 
     h2 {
