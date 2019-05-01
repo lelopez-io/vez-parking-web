@@ -13,7 +13,7 @@
           title="Luis"
           >Luis E. Lopez</a
         >
-        <a href="#footer" title="Albert">Albert Philen</a>
+        <a href="mailto:aphilen@uh.edu" title="Albert">Albert Philen</a>
         <a
           href="https://www.linkedin.com/in/mark-riddell-382805175/"
           target="_blank"
@@ -37,7 +37,7 @@ $text-color: $mint;
 $text-color-active: white;
 
 #footer {
-  margin-top: 40px;
+  margin-top: 0;
   width: 100vw;
   //style it
   background-color: $background-color;

@@ -17,6 +17,7 @@ $mint: #c1e7df;
 $dark-blue: #134d60;
 $slate-gray: #2c3e50;
 #learn-more {
+  margin-bottom: 40px;
   img {
     max-width: 100%;
   }
