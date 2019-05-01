@@ -9,7 +9,8 @@
 </template>
 
 <style lang="scss" scoped>
-.coming-soon {
+.coming-soon,
+.coming-soon:after {
   height: calc(100vh - 55px);
 }
 .coming-soon {
@@ -22,8 +23,6 @@
     top: 55px;
     left: 20px;
     right: 20px;
-    // bottom: 0px;
-    height: calc(100vh - 55px);
     z-index: 1000;
     max-width: 1032px;
     margin: 0 auto;
@@ -34,7 +33,7 @@
       transparent 2px,
       transparent 5px
     );
-    background-size: 100% 5px;
+    // background-size: 100% 5px;
     animation: lines 2s ease-out infinite;
     opacity: 0.3;
     mix-blend-mode: color-burn;
@@ -89,9 +88,9 @@
 
 @supports (-webkit-overflow-scrolling: touch) {
   /* CSS specific to iOS devices */
-  .coming-soon,
-  .coming-soon:after {
-    height: calc(100vh - 55px);
-  }
+  // .coming-soon,
+  // .coming-soon:after {
+  //   height: calc(100vh - 55px);
+  // }
 }
 </style>
