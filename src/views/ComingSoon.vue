@@ -10,7 +10,7 @@
 
 <style lang="scss" scoped>
 .coming-soon {
-  min-height: calc(100vh - 55px);
+  height: calc(100vh - 55px);
 }
 .coming-soon {
   font-family: 'Source Sans Pro', sans-serif;
@@ -19,7 +19,7 @@
   &:after {
     content: '';
     position: absolute;
-    top: 0px;
+    top: 55px;
     left: 20px;
     right: 20px;
     bottom: 0px;
@@ -83,6 +83,13 @@
   }
   100% {
     background-position: 0px 25px;
+  }
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+  /* CSS specific to iOS devices */
+  .coming-soon {
+    height: calc(100vh - 130px);
   }
 }
 </style>
