@@ -34,12 +34,6 @@ $slate-gray: #2c3e50;
 
     & > * {
       max-width: 60%;
-    }
-
-    h2,
-    p {
-      padding: 15px 30px;
-      background-color: rgba(255, 255, 255, 0.5);
       margin: 0;
     }
 
@@ -66,12 +60,20 @@ $slate-gray: #2c3e50;
   }
 }
 
+//for that above 767px
 @media (min-width: 767px) {
   #learn-more img {
     display: none;
   }
+
+  .txt-ctn > * {
+    padding: 15px 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0;
+  }
 }
 
+//for that below 767px
 @media (max-width: 767px) {
   #learn-more .txt-ctn {
     height: 100%;
@@ -79,6 +81,7 @@ $slate-gray: #2c3e50;
 
     & > * {
       max-width: 100%;
+      padding: 15px 0;
     }
   }
 }
