@@ -74,6 +74,7 @@ $text-color-active: white;
 .logo .name {
   color: $text-color;
   padding: 5px;
+  text-align: center;
 }
 
 .nav-links > *:hover {
