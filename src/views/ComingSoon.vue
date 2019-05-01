@@ -91,7 +91,7 @@
   /* CSS specific to iOS devices */
   .coming-soon,
   .coming-soon:after {
-    height: calc(100vh - 130px);
+    height: calc(100vh - 55px);
   }
 }
 </style>
