@@ -21,7 +21,7 @@
   </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 #about {
   margin-top: 55px;
   min-height: 90vh;
@@ -34,12 +34,6 @@
 
 .columns p {
   margin-top: 0;
-}
-
-.coming-soon {
-  display: flex;
-  justify-content: center;
-  padding-top: 200px;
 }
 
 @media (min-width: 767px) {
