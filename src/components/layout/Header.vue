@@ -30,7 +30,7 @@ $text-color-active: white;
   position: fixed;
   left: 0;
   top: 0;
-  z-index: 200;
+  z-index: 2000;
   height: 55px;
   width: 100vw;
   //style it
