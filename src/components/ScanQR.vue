@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="content">
+    <div class="content" @click="comingSoon">
       <div class="text">
         <h2>At a parking lot?</h2>
         <h5 class="sub-heading">Scan QR code to view availability</h5>
@@ -9,6 +9,16 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    comingSoon: function() {
+      this.$router.push('coming-soon')
+    }
+  }
+}
+</script>
 
 <style lang="scss" scoped>
 $light-mint: #e6f5f2;

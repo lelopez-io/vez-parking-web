@@ -9,12 +9,12 @@
         <div class="option-1">
           <h2>Self Park</h2>
           <p>Looking for a open spot nearby?</p>
-          <button>Find Parking</button>
+          <button @click="comingSoon">Find Parking</button>
         </div>
         <div class="option-2">
           <h2>Coordinate</h2>
           <p>Want to manage parking efficiently?</p>
-          <button>Get VEZ</button>
+          <button @click="comingSoon">Get VEZ</button>
         </div>
       </div>
     </div>
@@ -24,6 +24,16 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    comingSoon: function() {
+      this.$router.push('coming-soon')
+    }
+  }
+}
+</script>
 
 <style lang="scss" scoped>
 $slate-gray: #2c3e50;
