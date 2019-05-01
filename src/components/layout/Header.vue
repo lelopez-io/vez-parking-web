@@ -31,10 +31,12 @@ $text-color-active: white;
   left: 0;
   top: 0;
   z-index: 200;
-  height: 50px;
+  height: 55px;
   width: 100vw;
   //style it
   background-color: $background-color;
+
+  box-shadow: 0px 10px 20px -10px black;
 }
 
 .container {
