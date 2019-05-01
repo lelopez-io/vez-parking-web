@@ -8,7 +8,7 @@
       <ul class="nav-links">
         <router-link to="/" title="Home">Home</router-link>
         <router-link to="/about" title="About">About</router-link>
-        <router-link to="/login" title="Login">Login</router-link>
+        <!-- <router-link to="/login" title="Login">Login</router-link> -->
       </ul>
     </div>
   </div>
