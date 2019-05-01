@@ -8,12 +8,12 @@
       <div class="options">
         <div class="option-1">
           <h2>Self Park</h2>
-          <p>Looking for parking nearby?</p>
+          <p>Looking for a open spot nearby?</p>
           <button>Find Parking</button>
         </div>
         <div class="option-2">
           <h2>Coordinate</h2>
-          <p>Manage visitor parking efficiently</p>
+          <p>Want to manage parking efficiently?</p>
           <button>Get VEZ</button>
         </div>
       </div>
