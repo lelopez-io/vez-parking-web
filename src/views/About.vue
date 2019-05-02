@@ -2,12 +2,12 @@
   <div id="about">
     <h1>vez parking</h1>
 
-    <h2>Inovation for the Cities of Tomorrow</h2>
+    <h2>Innovation for the Cities of Tomorrow</h2>
 
     <div class="columns">
       <div>
         <p>
-          <strong>The Problem:</strong> In today's urban infrasturcture, where
+          <strong>The Problem:</strong> In today's urban infrastructure, where
           cars are heavily relied on, parking can be a huge waste of time.
         </p>
       </div>

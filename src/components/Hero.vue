@@ -8,7 +8,7 @@
       <div class="options">
         <div class="option-1">
           <h2>Self Park</h2>
-          <p>Looking for a open spot nearby?</p>
+          <p>Looking for an open spot nearby?</p>
           <button @click="comingSoon">Find Parking</button>
         </div>
         <div class="option-2">

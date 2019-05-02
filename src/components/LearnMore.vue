@@ -2,11 +2,11 @@
   <div id="learn-more">
     <img src="@/assets/phone.jpg" />
     <div class="txt-ctn">
-      <h2>A Fleet of IoT Deviced</h2>
+      <h2>A Fleet of IoT Devices</h2>
       <p>
-        The VEZ project aims at fully leveraging the "Cloud" to enable quick and
-        easy parking. Our technology can be deployed both in garages and open
-        air lots. <a href="/about">Read More</a>
+        A Fleet of IoT Devices The VEZ project aims to fully leverage the
+        "Cloud" to enable quick and easy parking. Our technology can be deployed
+        both in garages and open-air lots. <a href="/about">Read More</a>
       </p>
     </div>
   </div>
