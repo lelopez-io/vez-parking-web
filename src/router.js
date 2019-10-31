@@ -30,6 +30,12 @@ export default new Router({
       name: 'coming-soon',
       component: () =>
         import(/* webpackChunkName: "about" */ './views/ComingSoon.vue')
+    },
+    {
+      path: '/find-parking',
+      name: 'find-parking',
+      component: () =>
+        import(/* webpackChunkName: "about" */ './views/FindParking.vue')
     }
   ]
 })

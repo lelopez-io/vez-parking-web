@@ -10,3 +10,12 @@ new Vue({
   store,
   render: h => h(App)
 }).$mount('#app')
+
+export const globalData = {
+  state: {
+    spot1: 0,
+    spot2: 0,
+    spot3: 0,
+    spot4: 0
+  }
+}

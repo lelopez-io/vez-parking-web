@@ -9,7 +9,7 @@
         <div class="option-1">
           <h2>Self Park</h2>
           <p>Looking for an open spot nearby?</p>
-          <button @click="comingSoon">Find Parking</button>
+          <button @click="findParking">Find Parking</button>
         </div>
         <div class="option-2">
           <h2>Coordinate</h2>
@@ -30,6 +30,9 @@ export default {
   methods: {
     comingSoon: function() {
       this.$router.push('coming-soon')
+    },
+    findParking: function() {
+      this.$router.push('find-parking')
     }
   }
 }
