@@ -5438,11 +5438,18 @@
 
       <div class="zone1">
         {{
-        (parkingSpots.spot1 +
-        parkingSpots.spot2 +
-        parkingSpots.spot3 +
-        parkingSpots.spot4) *
-        97
+        (
+        parkingSpots.Group_A.spot_0.status +
+        parkingSpots.Group_B.spot_0.status +
+        parkingSpots.Group_C.spot_0.status +
+        parkingSpots.Group_D.spot_0.status +
+        parkingSpots.Group_E.spot_0.status +
+        parkingSpots.Group_F.spot_0.status +
+        parkingSpots.Group_G.spot_0.status +
+        parkingSpots.Group_H.spot_0.status +
+        parkingSpots.Group_I.spot_0.status +
+        parkingSpots.Group_J.spot_0.status
+        ) * 55
         }}
         / 400
       </div>
