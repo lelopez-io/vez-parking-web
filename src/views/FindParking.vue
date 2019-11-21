@@ -2,8 +2,17 @@
   <section class="find-parking">
     <div>
       <h1>Zone 0</h1>
+      <div class="zone1">
+        {{ getZone0() }}
+        / 5
+      </div>
+    </div>
+
+    <div>
+      <h1>Zone 1</h1>
       <div class="parking-lot">
         <svg
+          id="parking-lot-svg"
           width="499px"
           height="1348px"
           viewBox="0 0 499 1348"
@@ -541,336 +550,54 @@
             <rect id="path-524" x="1149" y="0" width="16" height="35" />
             <rect id="path-525" x="1168" y="0" width="16" height="35" />
             <rect id="path-526" x="1187" y="0" width="16" height="35" />
-            <rect
-              id="path-527"
-              x="10.2226655"
-              y="-8.87220858"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-528"
-              x="10.2226655"
-              y="7.12779142"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-529"
-              x="10.2226655"
-              y="23.1277914"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-530"
-              x="10.2226655"
-              y="39.1277914"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-531"
-              x="10.2226655"
-              y="55.1277914"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-532"
-              x="10.2226655"
-              y="71.1277914"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-533"
-              x="10.2226655"
-              y="88.1277914"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-534"
-              x="10.2226655"
-              y="104.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-535"
-              x="10.2226655"
-              y="120.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-536"
-              x="10.2226655"
-              y="136.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-537"
-              x="10.2226655"
-              y="153.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-538"
-              x="10.2226655"
-              y="169.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-539"
-              x="10.2226655"
-              y="185.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-540"
-              x="10.2226655"
-              y="202.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-541"
-              x="10.2226655"
-              y="218.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-542"
-              x="10.2226655"
-              y="234.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-543"
-              x="10.2226655"
-              y="250.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-544"
-              x="10.2226655"
-              y="268.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-545"
-              x="10.2226655"
-              y="284.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-546"
-              x="10.2226655"
-              y="300.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-547"
-              x="10.2226655"
-              y="316.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-548"
-              x="10.2226655"
-              y="332.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-549"
-              x="10.2226655"
-              y="348.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-550"
-              x="10.2226655"
-              y="-8.87220858"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-551"
-              x="10.2226655"
-              y="7.12779142"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-552"
-              x="10.2226655"
-              y="23.1277914"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-553"
-              x="10.2226655"
-              y="39.1277914"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-554"
-              x="10.2226655"
-              y="55.1277914"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-555"
-              x="10.2226655"
-              y="71.1277914"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-556"
-              x="10.2226655"
-              y="88.1277914"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-557"
-              x="10.2226655"
-              y="104.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-558"
-              x="10.2226655"
-              y="120.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-559"
-              x="10.2226655"
-              y="136.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-560"
-              x="10.2226655"
-              y="153.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-561"
-              x="10.2226655"
-              y="169.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-562"
-              x="10.2226655"
-              y="185.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-563"
-              x="10.2226655"
-              y="202.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-564"
-              x="10.2226655"
-              y="218.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-565"
-              x="10.2226655"
-              y="234.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-566"
-              x="10.2226655"
-              y="250.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-567"
-              x="10.2226655"
-              y="268.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-568"
-              x="10.2226655"
-              y="284.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-569"
-              x="10.2226655"
-              y="300.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-570"
-              x="10.2226655"
-              y="316.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-571"
-              x="10.2226655"
-              y="332.127791"
-              width="16"
-              height="35"
-            />
-            <rect
-              id="path-572"
-              x="10.2226655"
-              y="348.127791"
-              width="16"
-              height="35"
-            />
+            <rect id="path-527" x="10.2226655" y="-8.87220858" width="16" height="35" />
+            <rect id="path-528" x="10.2226655" y="7.12779142" width="16" height="35" />
+            <rect id="path-529" x="10.2226655" y="23.1277914" width="16" height="35" />
+            <rect id="path-530" x="10.2226655" y="39.1277914" width="16" height="35" />
+            <rect id="path-531" x="10.2226655" y="55.1277914" width="16" height="35" />
+            <rect id="path-532" x="10.2226655" y="71.1277914" width="16" height="35" />
+            <rect id="path-533" x="10.2226655" y="88.1277914" width="16" height="35" />
+            <rect id="path-534" x="10.2226655" y="104.127791" width="16" height="35" />
+            <rect id="path-535" x="10.2226655" y="120.127791" width="16" height="35" />
+            <rect id="path-536" x="10.2226655" y="136.127791" width="16" height="35" />
+            <rect id="path-537" x="10.2226655" y="153.127791" width="16" height="35" />
+            <rect id="path-538" x="10.2226655" y="169.127791" width="16" height="35" />
+            <rect id="path-539" x="10.2226655" y="185.127791" width="16" height="35" />
+            <rect id="path-540" x="10.2226655" y="202.127791" width="16" height="35" />
+            <rect id="path-541" x="10.2226655" y="218.127791" width="16" height="35" />
+            <rect id="path-542" x="10.2226655" y="234.127791" width="16" height="35" />
+            <rect id="path-543" x="10.2226655" y="250.127791" width="16" height="35" />
+            <rect id="path-544" x="10.2226655" y="268.127791" width="16" height="35" />
+            <rect id="path-545" x="10.2226655" y="284.127791" width="16" height="35" />
+            <rect id="path-546" x="10.2226655" y="300.127791" width="16" height="35" />
+            <rect id="path-547" x="10.2226655" y="316.127791" width="16" height="35" />
+            <rect id="path-548" x="10.2226655" y="332.127791" width="16" height="35" />
+            <rect id="path-549" x="10.2226655" y="348.127791" width="16" height="35" />
+            <rect id="path-550" x="10.2226655" y="-8.87220858" width="16" height="35" />
+            <rect id="path-551" x="10.2226655" y="7.12779142" width="16" height="35" />
+            <rect id="path-552" x="10.2226655" y="23.1277914" width="16" height="35" />
+            <rect id="path-553" x="10.2226655" y="39.1277914" width="16" height="35" />
+            <rect id="path-554" x="10.2226655" y="55.1277914" width="16" height="35" />
+            <rect id="path-555" x="10.2226655" y="71.1277914" width="16" height="35" />
+            <rect id="path-556" x="10.2226655" y="88.1277914" width="16" height="35" />
+            <rect id="path-557" x="10.2226655" y="104.127791" width="16" height="35" />
+            <rect id="path-558" x="10.2226655" y="120.127791" width="16" height="35" />
+            <rect id="path-559" x="10.2226655" y="136.127791" width="16" height="35" />
+            <rect id="path-560" x="10.2226655" y="153.127791" width="16" height="35" />
+            <rect id="path-561" x="10.2226655" y="169.127791" width="16" height="35" />
+            <rect id="path-562" x="10.2226655" y="185.127791" width="16" height="35" />
+            <rect id="path-563" x="10.2226655" y="202.127791" width="16" height="35" />
+            <rect id="path-564" x="10.2226655" y="218.127791" width="16" height="35" />
+            <rect id="path-565" x="10.2226655" y="234.127791" width="16" height="35" />
+            <rect id="path-566" x="10.2226655" y="250.127791" width="16" height="35" />
+            <rect id="path-567" x="10.2226655" y="268.127791" width="16" height="35" />
+            <rect id="path-568" x="10.2226655" y="284.127791" width="16" height="35" />
+            <rect id="path-569" x="10.2226655" y="300.127791" width="16" height="35" />
+            <rect id="path-570" x="10.2226655" y="316.127791" width="16" height="35" />
+            <rect id="path-571" x="10.2226655" y="332.127791" width="16" height="35" />
+            <rect id="path-572" x="10.2226655" y="348.127791" width="16" height="35" />
           </defs>
-          <g
-            id="Page-1"
-            stroke="none"
-            stroke-width="1"
-            fill="none"
-            fill-rule="evenodd"
-          >
+          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g
               id="Parking_lot"
               transform="translate(249.500000, 674.000000) rotate(-90.000000) translate(-249.500000, -674.000000) translate(-424.000000, 425.000000)"
@@ -894,19 +621,8 @@
                     transient: parkingSpots.Group_A.spot_0.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-1"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="0.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-1" />
+                  <rect stroke="#000000" stroke-width="1" x="0.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_1"
@@ -917,19 +633,8 @@
                     transient: parkingSpots.Group_A.spot_1.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-2"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="16.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-2" />
+                  <rect stroke="#000000" stroke-width="1" x="16.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_2"
@@ -940,19 +645,8 @@
                     transient: parkingSpots.Group_A.spot_2.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-3"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="32.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-3" />
+                  <rect stroke="#000000" stroke-width="1" x="32.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_3"
@@ -963,19 +657,8 @@
                     transient: parkingSpots.Group_A.spot_3.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-4"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="48.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-4" />
+                  <rect stroke="#000000" stroke-width="1" x="48.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_4"
@@ -986,19 +669,8 @@
                     transient: parkingSpots.Group_A.spot_4.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-5"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="64.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-5" />
+                  <rect stroke="#000000" stroke-width="1" x="64.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_5"
@@ -1009,19 +681,8 @@
                     transient: parkingSpots.Group_A.spot_5.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-6"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="80.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-6" />
+                  <rect stroke="#000000" stroke-width="1" x="80.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_6"
@@ -1032,19 +693,8 @@
                     transient: parkingSpots.Group_A.spot_6.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-7"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="96.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-7" />
+                  <rect stroke="#000000" stroke-width="1" x="96.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_7"
@@ -1055,19 +705,8 @@
                     transient: parkingSpots.Group_A.spot_7.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-8"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="112.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-8" />
+                  <rect stroke="#000000" stroke-width="1" x="112.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_8"
@@ -1078,19 +717,8 @@
                     transient: parkingSpots.Group_A.spot_8.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-9"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="128.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-9" />
+                  <rect stroke="#000000" stroke-width="1" x="128.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_9"
@@ -1101,19 +729,8 @@
                     transient: parkingSpots.Group_A.spot_9.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-10"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="144.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-10" />
+                  <rect stroke="#000000" stroke-width="1" x="144.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_10"
@@ -1124,19 +741,8 @@
                     transient: parkingSpots.Group_A.spot_10.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-11"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="160.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-11" />
+                  <rect stroke="#000000" stroke-width="1" x="160.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_11"
@@ -1147,19 +753,8 @@
                     transient: parkingSpots.Group_A.spot_11.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-12"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="176.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-12" />
+                  <rect stroke="#000000" stroke-width="1" x="176.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_12"
@@ -1170,19 +765,8 @@
                     transient: parkingSpots.Group_A.spot_12.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-13"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="192.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-13" />
+                  <rect stroke="#000000" stroke-width="1" x="192.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_13"
@@ -1193,19 +777,8 @@
                     transient: parkingSpots.Group_A.spot_13.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-14"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="208.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-14" />
+                  <rect stroke="#000000" stroke-width="1" x="208.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_14"
@@ -1216,19 +789,8 @@
                     transient: parkingSpots.Group_A.spot_14.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-15"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="224.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-15" />
+                  <rect stroke="#000000" stroke-width="1" x="224.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_15"
@@ -1239,19 +801,8 @@
                     transient: parkingSpots.Group_A.spot_15.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-16"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="240.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-16" />
+                  <rect stroke="#000000" stroke-width="1" x="240.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_16"
@@ -1262,19 +813,8 @@
                     transient: parkingSpots.Group_A.spot_16.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-17"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="256.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-17" />
+                  <rect stroke="#000000" stroke-width="1" x="256.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_17"
@@ -1285,19 +825,8 @@
                     transient: parkingSpots.Group_A.spot_17.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-18"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="272.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-18" />
+                  <rect stroke="#000000" stroke-width="1" x="272.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_18"
@@ -1308,19 +837,8 @@
                     transient: parkingSpots.Group_A.spot_18.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-19"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="288.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-19" />
+                  <rect stroke="#000000" stroke-width="1" x="288.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_19"
@@ -1331,19 +849,8 @@
                     transient: parkingSpots.Group_A.spot_19.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-20"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="304.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-20" />
+                  <rect stroke="#000000" stroke-width="1" x="304.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_20"
@@ -1354,19 +861,8 @@
                     transient: parkingSpots.Group_A.spot_20.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-21"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="320.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-21" />
+                  <rect stroke="#000000" stroke-width="1" x="320.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_21"
@@ -1377,19 +873,8 @@
                     transient: parkingSpots.Group_A.spot_21.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-22"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="336.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-22" />
+                  <rect stroke="#000000" stroke-width="1" x="336.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_22"
@@ -1400,19 +885,8 @@
                     transient: parkingSpots.Group_A.spot_22.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-23"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="352.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-23" />
+                  <rect stroke="#000000" stroke-width="1" x="352.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_23"
@@ -1423,19 +897,8 @@
                     transient: parkingSpots.Group_A.spot_23.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-24"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="368.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-24" />
+                  <rect stroke="#000000" stroke-width="1" x="368.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_24"
@@ -1446,19 +909,8 @@
                     transient: parkingSpots.Group_A.spot_24.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-25"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="384.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-25" />
+                  <rect stroke="#000000" stroke-width="1" x="384.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_25"
@@ -1469,19 +921,8 @@
                     transient: parkingSpots.Group_A.spot_25.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-26"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="400.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-26" />
+                  <rect stroke="#000000" stroke-width="1" x="400.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_26"
@@ -1492,19 +933,8 @@
                     transient: parkingSpots.Group_A.spot_26.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-27"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="416.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-27" />
+                  <rect stroke="#000000" stroke-width="1" x="416.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_27"
@@ -1515,19 +945,8 @@
                     transient: parkingSpots.Group_A.spot_27.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-28"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="432.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-28" />
+                  <rect stroke="#000000" stroke-width="1" x="432.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_28"
@@ -1538,19 +957,8 @@
                     transient: parkingSpots.Group_A.spot_28.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-29"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="448.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-29" />
+                  <rect stroke="#000000" stroke-width="1" x="448.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_29"
@@ -1561,19 +969,8 @@
                     transient: parkingSpots.Group_A.spot_29.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-30"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="464.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-30" />
+                  <rect stroke="#000000" stroke-width="1" x="464.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_30"
@@ -1584,19 +981,8 @@
                     transient: parkingSpots.Group_A.spot_30.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-31"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="480.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-31" />
+                  <rect stroke="#000000" stroke-width="1" x="480.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_31"
@@ -1607,19 +993,8 @@
                     transient: parkingSpots.Group_A.spot_31.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-32"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="496.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-32" />
+                  <rect stroke="#000000" stroke-width="1" x="496.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_32"
@@ -1630,19 +1005,8 @@
                     transient: parkingSpots.Group_A.spot_32.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-33"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="512.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-33" />
+                  <rect stroke="#000000" stroke-width="1" x="512.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_33"
@@ -1653,19 +1017,8 @@
                     transient: parkingSpots.Group_A.spot_33.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-34"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="528.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-34" />
+                  <rect stroke="#000000" stroke-width="1" x="528.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_34"
@@ -1676,19 +1029,8 @@
                     transient: parkingSpots.Group_A.spot_34.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-35"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="544.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-35" />
+                  <rect stroke="#000000" stroke-width="1" x="544.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_35"
@@ -1699,19 +1041,8 @@
                     transient: parkingSpots.Group_A.spot_35.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-36"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="560.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-36" />
+                  <rect stroke="#000000" stroke-width="1" x="560.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_36"
@@ -1722,19 +1053,8 @@
                     transient: parkingSpots.Group_A.spot_36.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-37"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="576.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-37" />
+                  <rect stroke="#000000" stroke-width="1" x="576.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_37"
@@ -1745,19 +1065,8 @@
                     transient: parkingSpots.Group_A.spot_37.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-38"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="592.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-38" />
+                  <rect stroke="#000000" stroke-width="1" x="592.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_38"
@@ -1768,19 +1077,8 @@
                     transient: parkingSpots.Group_A.spot_38.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-39"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="608.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-39" />
+                  <rect stroke="#000000" stroke-width="1" x="608.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_39"
@@ -1791,19 +1089,8 @@
                     transient: parkingSpots.Group_A.spot_39.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-40"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="624.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-40" />
+                  <rect stroke="#000000" stroke-width="1" x="624.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_40"
@@ -1814,19 +1101,8 @@
                     transient: parkingSpots.Group_A.spot_40.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-41"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="640.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-41" />
+                  <rect stroke="#000000" stroke-width="1" x="640.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_41"
@@ -1837,19 +1113,8 @@
                     transient: parkingSpots.Group_A.spot_41.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-42"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="656.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-42" />
+                  <rect stroke="#000000" stroke-width="1" x="656.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_42"
@@ -1860,19 +1125,8 @@
                     transient: parkingSpots.Group_A.spot_42.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-43"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="672.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-43" />
+                  <rect stroke="#000000" stroke-width="1" x="672.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_43"
@@ -1883,19 +1137,8 @@
                     transient: parkingSpots.Group_A.spot_43.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-44"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="688.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-44" />
+                  <rect stroke="#000000" stroke-width="1" x="688.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_44"
@@ -1906,19 +1149,8 @@
                     transient: parkingSpots.Group_A.spot_44.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-45"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="704.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-45" />
+                  <rect stroke="#000000" stroke-width="1" x="704.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_45"
@@ -1929,19 +1161,8 @@
                     transient: parkingSpots.Group_A.spot_45.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-46"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="720.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-46" />
+                  <rect stroke="#000000" stroke-width="1" x="720.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_46"
@@ -1952,19 +1173,8 @@
                     transient: parkingSpots.Group_A.spot_46.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-47"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="736.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-47" />
+                  <rect stroke="#000000" stroke-width="1" x="736.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_47"
@@ -1975,19 +1185,8 @@
                     transient: parkingSpots.Group_A.spot_47.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-48"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="752.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-48" />
+                  <rect stroke="#000000" stroke-width="1" x="752.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_48"
@@ -1998,19 +1197,8 @@
                     transient: parkingSpots.Group_A.spot_48.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-49"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="768.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-49" />
+                  <rect stroke="#000000" stroke-width="1" x="768.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_49"
@@ -2021,19 +1209,8 @@
                     transient: parkingSpots.Group_A.spot_49.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-50"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="784.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-50" />
+                  <rect stroke="#000000" stroke-width="1" x="784.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_50"
@@ -2044,19 +1221,8 @@
                     transient: parkingSpots.Group_A.spot_50.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-51"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="800.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-51" />
+                  <rect stroke="#000000" stroke-width="1" x="800.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_51"
@@ -2067,19 +1233,8 @@
                     transient: parkingSpots.Group_A.spot_51.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-52"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="816.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-52" />
+                  <rect stroke="#000000" stroke-width="1" x="816.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_52"
@@ -2090,19 +1245,8 @@
                     transient: parkingSpots.Group_A.spot_52.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-53"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="832.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-53" />
+                  <rect stroke="#000000" stroke-width="1" x="832.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_53"
@@ -2113,19 +1257,8 @@
                     transient: parkingSpots.Group_A.spot_53.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-54"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="848.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-54" />
+                  <rect stroke="#000000" stroke-width="1" x="848.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_54"
@@ -2136,19 +1269,8 @@
                     transient: parkingSpots.Group_A.spot_54.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-55"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="864.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-55" />
+                  <rect stroke="#000000" stroke-width="1" x="864.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_55"
@@ -2159,19 +1281,8 @@
                     transient: parkingSpots.Group_A.spot_55.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-56"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="880.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-56" />
+                  <rect stroke="#000000" stroke-width="1" x="880.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_56"
@@ -2182,19 +1293,8 @@
                     transient: parkingSpots.Group_A.spot_56.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-57"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="896.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-57" />
+                  <rect stroke="#000000" stroke-width="1" x="896.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_57"
@@ -2205,19 +1305,8 @@
                     transient: parkingSpots.Group_A.spot_57.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-58"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="912.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-58" />
+                  <rect stroke="#000000" stroke-width="1" x="912.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_58"
@@ -2228,19 +1317,8 @@
                     transient: parkingSpots.Group_A.spot_58.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-59"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="928.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-59" />
+                  <rect stroke="#000000" stroke-width="1" x="928.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_59"
@@ -2251,19 +1329,8 @@
                     transient: parkingSpots.Group_A.spot_59.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-60"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="944.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-60" />
+                  <rect stroke="#000000" stroke-width="1" x="944.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_60"
@@ -2274,19 +1341,8 @@
                     transient: parkingSpots.Group_A.spot_60.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-61"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="960.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-61" />
+                  <rect stroke="#000000" stroke-width="1" x="960.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_61"
@@ -2297,19 +1353,8 @@
                     transient: parkingSpots.Group_A.spot_61.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-62"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="976.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-62" />
+                  <rect stroke="#000000" stroke-width="1" x="976.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_62"
@@ -2320,19 +1365,8 @@
                     transient: parkingSpots.Group_A.spot_62.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-63"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="992.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-63" />
+                  <rect stroke="#000000" stroke-width="1" x="992.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_63"
@@ -2343,11 +1377,7 @@
                     transient: parkingSpots.Group_A.spot_63.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-64"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-64" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -2366,11 +1396,7 @@
                     transient: parkingSpots.Group_A.spot_64.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-65"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-65" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -2389,11 +1415,7 @@
                     transient: parkingSpots.Group_A.spot_65.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-66"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-66" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -2412,11 +1434,7 @@
                     transient: parkingSpots.Group_A.spot_66.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-67"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-67" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -2435,11 +1453,7 @@
                     transient: parkingSpots.Group_A.spot_67.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-68"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-68" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -2458,11 +1472,7 @@
                     transient: parkingSpots.Group_A.spot_68.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-69"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-69" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -2481,11 +1491,7 @@
                     transient: parkingSpots.Group_A.spot_69.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-70"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-70" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -2504,11 +1510,7 @@
                     transient: parkingSpots.Group_A.spot_70.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-71"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-71" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -2527,11 +1529,7 @@
                     transient: parkingSpots.Group_A.spot_71.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-72"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-72" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -2550,11 +1548,7 @@
                     transient: parkingSpots.Group_A.spot_72.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-73"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-73" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -2573,11 +1567,7 @@
                     transient: parkingSpots.Group_A.spot_73.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-74"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-74" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -2596,11 +1586,7 @@
                     transient: parkingSpots.Group_A.spot_74.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-75"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-75" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -2619,11 +1605,7 @@
                     transient: parkingSpots.Group_A.spot_75.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-76"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-76" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -2644,19 +1626,8 @@
                     transient: parkingSpots.Group_B.spot_0.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-77"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="0.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-77" />
+                  <rect stroke="#000000" stroke-width="1" x="0.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_1"
@@ -2667,19 +1638,8 @@
                     transient: parkingSpots.Group_B.spot_1.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-78"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="16.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-78" />
+                  <rect stroke="#000000" stroke-width="1" x="16.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_2"
@@ -2690,19 +1650,8 @@
                     transient: parkingSpots.Group_B.spot_2.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-79"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="32.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-79" />
+                  <rect stroke="#000000" stroke-width="1" x="32.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_3"
@@ -2713,19 +1662,8 @@
                     transient: parkingSpots.Group_B.spot_3.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-80"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="48.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-80" />
+                  <rect stroke="#000000" stroke-width="1" x="48.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_4"
@@ -2736,19 +1674,8 @@
                     transient: parkingSpots.Group_B.spot_4.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-81"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="64.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-81" />
+                  <rect stroke="#000000" stroke-width="1" x="64.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_5"
@@ -2759,19 +1686,8 @@
                     transient: parkingSpots.Group_B.spot_5.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-82"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="80.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-82" />
+                  <rect stroke="#000000" stroke-width="1" x="80.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_6"
@@ -2782,19 +1698,8 @@
                     transient: parkingSpots.Group_B.spot_6.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-83"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="96.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-83" />
+                  <rect stroke="#000000" stroke-width="1" x="96.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_7"
@@ -2805,19 +1710,8 @@
                     transient: parkingSpots.Group_B.spot_7.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-84"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="112.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-84" />
+                  <rect stroke="#000000" stroke-width="1" x="112.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_8"
@@ -2828,19 +1722,8 @@
                     transient: parkingSpots.Group_B.spot_8.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-85"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="128.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-85" />
+                  <rect stroke="#000000" stroke-width="1" x="128.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_9"
@@ -2851,19 +1734,8 @@
                     transient: parkingSpots.Group_B.spot_9.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-86"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="144.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-86" />
+                  <rect stroke="#000000" stroke-width="1" x="144.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_10"
@@ -2874,19 +1746,8 @@
                     transient: parkingSpots.Group_B.spot_10.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-87"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="160.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-87" />
+                  <rect stroke="#000000" stroke-width="1" x="160.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_11"
@@ -2897,19 +1758,8 @@
                     transient: parkingSpots.Group_B.spot_11.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-88"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="176.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-88" />
+                  <rect stroke="#000000" stroke-width="1" x="176.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_12"
@@ -2920,19 +1770,8 @@
                     transient: parkingSpots.Group_B.spot_12.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-89"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="192.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-89" />
+                  <rect stroke="#000000" stroke-width="1" x="192.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_13"
@@ -2943,19 +1782,8 @@
                     transient: parkingSpots.Group_B.spot_13.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-90"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="208.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-90" />
+                  <rect stroke="#000000" stroke-width="1" x="208.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_14"
@@ -2966,19 +1794,8 @@
                     transient: parkingSpots.Group_B.spot_14.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-91"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="224.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-91" />
+                  <rect stroke="#000000" stroke-width="1" x="224.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_15"
@@ -2989,19 +1806,8 @@
                     transient: parkingSpots.Group_B.spot_15.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-92"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="240.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-92" />
+                  <rect stroke="#000000" stroke-width="1" x="240.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_16"
@@ -3012,19 +1818,8 @@
                     transient: parkingSpots.Group_B.spot_16.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-93"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="256.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-93" />
+                  <rect stroke="#000000" stroke-width="1" x="256.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_17"
@@ -3035,19 +1830,8 @@
                     transient: parkingSpots.Group_B.spot_17.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-94"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="272.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-94" />
+                  <rect stroke="#000000" stroke-width="1" x="272.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_18"
@@ -3058,19 +1842,8 @@
                     transient: parkingSpots.Group_B.spot_18.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-95"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="288.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-95" />
+                  <rect stroke="#000000" stroke-width="1" x="288.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_19"
@@ -3081,19 +1854,8 @@
                     transient: parkingSpots.Group_B.spot_19.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-96"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="304.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-96" />
+                  <rect stroke="#000000" stroke-width="1" x="304.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_20"
@@ -3104,19 +1866,8 @@
                     transient: parkingSpots.Group_B.spot_20.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-97"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="386.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-97" />
+                  <rect stroke="#000000" stroke-width="1" x="386.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_21"
@@ -3127,19 +1878,8 @@
                     transient: parkingSpots.Group_B.spot_21.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-98"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="402.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-98" />
+                  <rect stroke="#000000" stroke-width="1" x="402.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_22"
@@ -3150,19 +1890,8 @@
                     transient: parkingSpots.Group_B.spot_22.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-99"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="418.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-99" />
+                  <rect stroke="#000000" stroke-width="1" x="418.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_23"
@@ -3173,19 +1902,8 @@
                     transient: parkingSpots.Group_B.spot_23.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-100"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="434.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-100" />
+                  <rect stroke="#000000" stroke-width="1" x="434.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_24"
@@ -3196,19 +1914,8 @@
                     transient: parkingSpots.Group_B.spot_24.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-101"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="450.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-101" />
+                  <rect stroke="#000000" stroke-width="1" x="450.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_25"
@@ -3219,19 +1926,8 @@
                     transient: parkingSpots.Group_B.spot_25.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-102"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="466.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-102" />
+                  <rect stroke="#000000" stroke-width="1" x="466.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_26"
@@ -3242,19 +1938,8 @@
                     transient: parkingSpots.Group_B.spot_26.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-103"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="482.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-103" />
+                  <rect stroke="#000000" stroke-width="1" x="482.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_27"
@@ -3265,19 +1950,8 @@
                     transient: parkingSpots.Group_B.spot_27.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-104"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="498.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-104" />
+                  <rect stroke="#000000" stroke-width="1" x="498.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_28"
@@ -3288,19 +1962,8 @@
                     transient: parkingSpots.Group_B.spot_28.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-105"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="514.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-105" />
+                  <rect stroke="#000000" stroke-width="1" x="514.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_29"
@@ -3311,19 +1974,8 @@
                     transient: parkingSpots.Group_B.spot_29.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-106"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="530.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-106" />
+                  <rect stroke="#000000" stroke-width="1" x="530.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_30"
@@ -3334,19 +1986,8 @@
                     transient: parkingSpots.Group_B.spot_30.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-107"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="547.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-107" />
+                  <rect stroke="#000000" stroke-width="1" x="547.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_31"
@@ -3357,19 +1998,8 @@
                     transient: parkingSpots.Group_B.spot_31.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-108"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="563.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-108" />
+                  <rect stroke="#000000" stroke-width="1" x="563.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_32"
@@ -3380,19 +2010,8 @@
                     transient: parkingSpots.Group_B.spot_32.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-109"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="579.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-109" />
+                  <rect stroke="#000000" stroke-width="1" x="579.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_33"
@@ -3403,19 +2022,8 @@
                     transient: parkingSpots.Group_B.spot_33.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-110"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="595.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-110" />
+                  <rect stroke="#000000" stroke-width="1" x="595.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_34"
@@ -3426,19 +2034,8 @@
                     transient: parkingSpots.Group_B.spot_34.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-111"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="611.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-111" />
+                  <rect stroke="#000000" stroke-width="1" x="611.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_35"
@@ -3449,19 +2046,8 @@
                     transient: parkingSpots.Group_B.spot_35.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-112"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="627.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-112" />
+                  <rect stroke="#000000" stroke-width="1" x="627.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_36"
@@ -3472,19 +2058,8 @@
                     transient: parkingSpots.Group_B.spot_36.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-113"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="643.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-113" />
+                  <rect stroke="#000000" stroke-width="1" x="643.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_37"
@@ -3495,19 +2070,8 @@
                     transient: parkingSpots.Group_B.spot_37.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-114"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="659.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-114" />
+                  <rect stroke="#000000" stroke-width="1" x="659.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_38"
@@ -3518,19 +2082,8 @@
                     transient: parkingSpots.Group_B.spot_38.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-115"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="675.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-115" />
+                  <rect stroke="#000000" stroke-width="1" x="675.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_39"
@@ -3541,19 +2094,8 @@
                     transient: parkingSpots.Group_B.spot_39.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-116"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="691.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-116" />
+                  <rect stroke="#000000" stroke-width="1" x="691.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_40"
@@ -3564,19 +2106,8 @@
                     transient: parkingSpots.Group_B.spot_40.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-117"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="708.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-117" />
+                  <rect stroke="#000000" stroke-width="1" x="708.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_41"
@@ -3587,19 +2118,8 @@
                     transient: parkingSpots.Group_B.spot_41.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-118"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="724.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-118" />
+                  <rect stroke="#000000" stroke-width="1" x="724.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_42"
@@ -3610,19 +2130,8 @@
                     transient: parkingSpots.Group_B.spot_42.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-119"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="740.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-119" />
+                  <rect stroke="#000000" stroke-width="1" x="740.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_43"
@@ -3633,19 +2142,8 @@
                     transient: parkingSpots.Group_B.spot_43.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-120"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="756.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-120" />
+                  <rect stroke="#000000" stroke-width="1" x="756.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_44"
@@ -3656,19 +2154,8 @@
                     transient: parkingSpots.Group_B.spot_44.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-121"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="772.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-121" />
+                  <rect stroke="#000000" stroke-width="1" x="772.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_45"
@@ -3679,19 +2166,8 @@
                     transient: parkingSpots.Group_B.spot_45.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-122"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="788.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-122" />
+                  <rect stroke="#000000" stroke-width="1" x="788.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_46"
@@ -3702,19 +2178,8 @@
                     transient: parkingSpots.Group_B.spot_46.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-123"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="804.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-123" />
+                  <rect stroke="#000000" stroke-width="1" x="804.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_47"
@@ -3725,19 +2190,8 @@
                     transient: parkingSpots.Group_B.spot_47.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-124"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="820.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-124" />
+                  <rect stroke="#000000" stroke-width="1" x="820.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_48"
@@ -3748,19 +2202,8 @@
                     transient: parkingSpots.Group_B.spot_48.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-125"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="836.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-125" />
+                  <rect stroke="#000000" stroke-width="1" x="836.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_49"
@@ -3771,19 +2214,8 @@
                     transient: parkingSpots.Group_B.spot_49.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-126"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="852.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-126" />
+                  <rect stroke="#000000" stroke-width="1" x="852.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_50"
@@ -3794,19 +2226,8 @@
                     transient: parkingSpots.Group_B.spot_50.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-127"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="869.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-127" />
+                  <rect stroke="#000000" stroke-width="1" x="869.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_51"
@@ -3817,19 +2238,8 @@
                     transient: parkingSpots.Group_B.spot_51.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-128"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="885.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-128" />
+                  <rect stroke="#000000" stroke-width="1" x="885.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_52"
@@ -3840,19 +2250,8 @@
                     transient: parkingSpots.Group_B.spot_52.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-129"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="901.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-129" />
+                  <rect stroke="#000000" stroke-width="1" x="901.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_53"
@@ -3863,19 +2262,8 @@
                     transient: parkingSpots.Group_B.spot_53.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-130"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="917.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-130" />
+                  <rect stroke="#000000" stroke-width="1" x="917.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_54"
@@ -3886,19 +2274,8 @@
                     transient: parkingSpots.Group_B.spot_54.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-131"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="933.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-131" />
+                  <rect stroke="#000000" stroke-width="1" x="933.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_55"
@@ -3909,19 +2286,8 @@
                     transient: parkingSpots.Group_B.spot_55.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-132"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="949.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-132" />
+                  <rect stroke="#000000" stroke-width="1" x="949.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_56"
@@ -3932,19 +2298,8 @@
                     transient: parkingSpots.Group_B.spot_56.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-133"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="965.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-133" />
+                  <rect stroke="#000000" stroke-width="1" x="965.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_57"
@@ -3955,19 +2310,8 @@
                     transient: parkingSpots.Group_B.spot_57.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-134"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="981.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-134" />
+                  <rect stroke="#000000" stroke-width="1" x="981.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_58"
@@ -3978,19 +2322,8 @@
                     transient: parkingSpots.Group_B.spot_58.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-135"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="997.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-135" />
+                  <rect stroke="#000000" stroke-width="1" x="997.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_59"
@@ -4001,11 +2334,7 @@
                     transient: parkingSpots.Group_B.spot_59.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-136"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-136" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -4024,11 +2353,7 @@
                     transient: parkingSpots.Group_B.spot_60.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-137"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-137" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -4047,11 +2372,7 @@
                     transient: parkingSpots.Group_B.spot_61.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-138"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-138" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -4070,11 +2391,7 @@
                     transient: parkingSpots.Group_B.spot_62.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-139"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-139" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -4093,11 +2410,7 @@
                     transient: parkingSpots.Group_B.spot_63.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-140"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-140" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -4116,11 +2429,7 @@
                     transient: parkingSpots.Group_B.spot_64.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-141"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-141" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -4141,19 +2450,8 @@
                     transient: parkingSpots.Group_C.spot_0.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-142"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="0.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-142" />
+                  <rect stroke="#000000" stroke-width="1" x="0.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_1"
@@ -4164,19 +2462,8 @@
                     transient: parkingSpots.Group_C.spot_1.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-143"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="16.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-143" />
+                  <rect stroke="#000000" stroke-width="1" x="16.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_2"
@@ -4187,19 +2474,8 @@
                     transient: parkingSpots.Group_C.spot_2.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-144"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="33.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-144" />
+                  <rect stroke="#000000" stroke-width="1" x="33.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_3"
@@ -4210,19 +2486,8 @@
                     transient: parkingSpots.Group_C.spot_3.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-145"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="49.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-145" />
+                  <rect stroke="#000000" stroke-width="1" x="49.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_4"
@@ -4233,19 +2498,8 @@
                     transient: parkingSpots.Group_C.spot_4.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-146"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="66.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-146" />
+                  <rect stroke="#000000" stroke-width="1" x="66.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_5"
@@ -4256,19 +2510,8 @@
                     transient: parkingSpots.Group_C.spot_5.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-147"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="82.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-147" />
+                  <rect stroke="#000000" stroke-width="1" x="82.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_6"
@@ -4279,19 +2522,8 @@
                     transient: parkingSpots.Group_C.spot_6.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-148"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="99.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-148" />
+                  <rect stroke="#000000" stroke-width="1" x="99.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_7"
@@ -4302,19 +2534,8 @@
                     transient: parkingSpots.Group_C.spot_7.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-149"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="115.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-149" />
+                  <rect stroke="#000000" stroke-width="1" x="115.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_8"
@@ -4325,19 +2546,8 @@
                     transient: parkingSpots.Group_C.spot_8.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-150"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="132.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-150" />
+                  <rect stroke="#000000" stroke-width="1" x="132.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_9"
@@ -4348,19 +2558,8 @@
                     transient: parkingSpots.Group_C.spot_9.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-151"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="148.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-151" />
+                  <rect stroke="#000000" stroke-width="1" x="148.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_10"
@@ -4371,19 +2570,8 @@
                     transient: parkingSpots.Group_C.spot_10.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-152"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="165.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-152" />
+                  <rect stroke="#000000" stroke-width="1" x="165.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_11"
@@ -4394,19 +2582,8 @@
                     transient: parkingSpots.Group_C.spot_11.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-153"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="181.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-153" />
+                  <rect stroke="#000000" stroke-width="1" x="181.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_12"
@@ -4417,19 +2594,8 @@
                     transient: parkingSpots.Group_C.spot_12.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-154"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="198.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-154" />
+                  <rect stroke="#000000" stroke-width="1" x="198.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_13"
@@ -4440,19 +2606,8 @@
                     transient: parkingSpots.Group_C.spot_13.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-155"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="214.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-155" />
+                  <rect stroke="#000000" stroke-width="1" x="214.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_14"
@@ -4463,19 +2618,8 @@
                     transient: parkingSpots.Group_C.spot_14.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-156"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="231.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-156" />
+                  <rect stroke="#000000" stroke-width="1" x="231.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_15"
@@ -4486,19 +2630,8 @@
                     transient: parkingSpots.Group_C.spot_15.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-157"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="247.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-157" />
+                  <rect stroke="#000000" stroke-width="1" x="247.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_16"
@@ -4509,19 +2642,8 @@
                     transient: parkingSpots.Group_C.spot_16.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-158"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="264.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-158" />
+                  <rect stroke="#000000" stroke-width="1" x="264.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_17"
@@ -4532,19 +2654,8 @@
                     transient: parkingSpots.Group_C.spot_17.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-159"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="280.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-159" />
+                  <rect stroke="#000000" stroke-width="1" x="280.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_18"
@@ -4555,19 +2666,8 @@
                     transient: parkingSpots.Group_C.spot_18.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-160"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="297.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-160" />
+                  <rect stroke="#000000" stroke-width="1" x="297.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_19"
@@ -4578,19 +2678,8 @@
                     transient: parkingSpots.Group_C.spot_19.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-161"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="313.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-161" />
+                  <rect stroke="#000000" stroke-width="1" x="313.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_20"
@@ -4601,19 +2690,8 @@
                     transient: parkingSpots.Group_C.spot_20.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-162"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="395.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-162" />
+                  <rect stroke="#000000" stroke-width="1" x="395.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_21"
@@ -4624,19 +2702,8 @@
                     transient: parkingSpots.Group_C.spot_21.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-163"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="411.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-163" />
+                  <rect stroke="#000000" stroke-width="1" x="411.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_22"
@@ -4647,19 +2714,8 @@
                     transient: parkingSpots.Group_C.spot_22.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-164"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="427.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-164" />
+                  <rect stroke="#000000" stroke-width="1" x="427.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_23"
@@ -4670,19 +2726,8 @@
                     transient: parkingSpots.Group_C.spot_23.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-165"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="443.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-165" />
+                  <rect stroke="#000000" stroke-width="1" x="443.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_24"
@@ -4693,19 +2738,8 @@
                     transient: parkingSpots.Group_C.spot_24.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-166"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="459.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-166" />
+                  <rect stroke="#000000" stroke-width="1" x="459.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_25"
@@ -4716,19 +2750,8 @@
                     transient: parkingSpots.Group_C.spot_25.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-167"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="475.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-167" />
+                  <rect stroke="#000000" stroke-width="1" x="475.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_26"
@@ -4739,19 +2762,8 @@
                     transient: parkingSpots.Group_C.spot_26.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-168"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="491.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-168" />
+                  <rect stroke="#000000" stroke-width="1" x="491.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_27"
@@ -4762,19 +2774,8 @@
                     transient: parkingSpots.Group_C.spot_27.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-169"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="507.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-169" />
+                  <rect stroke="#000000" stroke-width="1" x="507.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_28"
@@ -4785,19 +2786,8 @@
                     transient: parkingSpots.Group_C.spot_28.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-170"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="523.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-170" />
+                  <rect stroke="#000000" stroke-width="1" x="523.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_29"
@@ -4808,19 +2798,8 @@
                     transient: parkingSpots.Group_C.spot_29.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-171"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="539.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-171" />
+                  <rect stroke="#000000" stroke-width="1" x="539.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_30"
@@ -4831,19 +2810,8 @@
                     transient: parkingSpots.Group_C.spot_30.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-172"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="556.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-172" />
+                  <rect stroke="#000000" stroke-width="1" x="556.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_31"
@@ -4854,19 +2822,8 @@
                     transient: parkingSpots.Group_C.spot_31.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-173"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="572.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-173" />
+                  <rect stroke="#000000" stroke-width="1" x="572.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_32"
@@ -4877,19 +2834,8 @@
                     transient: parkingSpots.Group_C.spot_32.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-174"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="588.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-174" />
+                  <rect stroke="#000000" stroke-width="1" x="588.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_33"
@@ -4900,19 +2846,8 @@
                     transient: parkingSpots.Group_C.spot_33.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-175"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="604.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-175" />
+                  <rect stroke="#000000" stroke-width="1" x="604.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_34"
@@ -4923,19 +2858,8 @@
                     transient: parkingSpots.Group_C.spot_34.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-176"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="620.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-176" />
+                  <rect stroke="#000000" stroke-width="1" x="620.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_35"
@@ -4946,19 +2870,8 @@
                     transient: parkingSpots.Group_C.spot_35.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-177"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="636.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-177" />
+                  <rect stroke="#000000" stroke-width="1" x="636.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_36"
@@ -4969,19 +2882,8 @@
                     transient: parkingSpots.Group_C.spot_36.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-178"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="652.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-178" />
+                  <rect stroke="#000000" stroke-width="1" x="652.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_37"
@@ -4992,19 +2894,8 @@
                     transient: parkingSpots.Group_C.spot_37.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-179"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="668.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-179" />
+                  <rect stroke="#000000" stroke-width="1" x="668.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_38"
@@ -5015,19 +2906,8 @@
                     transient: parkingSpots.Group_C.spot_38.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-180"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="684.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-180" />
+                  <rect stroke="#000000" stroke-width="1" x="684.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_39"
@@ -5038,19 +2918,8 @@
                     transient: parkingSpots.Group_C.spot_39.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-181"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="700.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-181" />
+                  <rect stroke="#000000" stroke-width="1" x="700.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_40"
@@ -5061,19 +2930,8 @@
                     transient: parkingSpots.Group_C.spot_40.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-182"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="717.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-182" />
+                  <rect stroke="#000000" stroke-width="1" x="717.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_41"
@@ -5084,19 +2942,8 @@
                     transient: parkingSpots.Group_C.spot_41.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-183"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="733.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-183" />
+                  <rect stroke="#000000" stroke-width="1" x="733.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_42"
@@ -5107,19 +2954,8 @@
                     transient: parkingSpots.Group_C.spot_42.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-184"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="749.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-184" />
+                  <rect stroke="#000000" stroke-width="1" x="749.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_43"
@@ -5130,19 +2966,8 @@
                     transient: parkingSpots.Group_C.spot_43.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-185"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="765.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-185" />
+                  <rect stroke="#000000" stroke-width="1" x="765.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_44"
@@ -5153,19 +2978,8 @@
                     transient: parkingSpots.Group_C.spot_44.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-186"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="781.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-186" />
+                  <rect stroke="#000000" stroke-width="1" x="781.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_45"
@@ -5176,19 +2990,8 @@
                     transient: parkingSpots.Group_C.spot_45.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-187"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="797.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-187" />
+                  <rect stroke="#000000" stroke-width="1" x="797.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_46"
@@ -5199,19 +3002,8 @@
                     transient: parkingSpots.Group_C.spot_46.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-188"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="813.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-188" />
+                  <rect stroke="#000000" stroke-width="1" x="813.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_47"
@@ -5222,19 +3014,8 @@
                     transient: parkingSpots.Group_C.spot_47.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-189"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="829.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-189" />
+                  <rect stroke="#000000" stroke-width="1" x="829.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_48"
@@ -5245,19 +3026,8 @@
                     transient: parkingSpots.Group_C.spot_48.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-190"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="845.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-190" />
+                  <rect stroke="#000000" stroke-width="1" x="845.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_49"
@@ -5268,19 +3038,8 @@
                     transient: parkingSpots.Group_C.spot_49.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-191"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="861.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-191" />
+                  <rect stroke="#000000" stroke-width="1" x="861.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_50"
@@ -5291,19 +3050,8 @@
                     transient: parkingSpots.Group_C.spot_50.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-192"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="878.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-192" />
+                  <rect stroke="#000000" stroke-width="1" x="878.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_51"
@@ -5314,19 +3062,8 @@
                     transient: parkingSpots.Group_C.spot_51.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-193"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="894.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-193" />
+                  <rect stroke="#000000" stroke-width="1" x="894.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_52"
@@ -5337,19 +3074,8 @@
                     transient: parkingSpots.Group_C.spot_52.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-194"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="910.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-194" />
+                  <rect stroke="#000000" stroke-width="1" x="910.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_53"
@@ -5360,19 +3086,8 @@
                     transient: parkingSpots.Group_C.spot_53.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-195"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="926.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-195" />
+                  <rect stroke="#000000" stroke-width="1" x="926.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_54"
@@ -5383,19 +3098,8 @@
                     transient: parkingSpots.Group_C.spot_54.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-196"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="942.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-196" />
+                  <rect stroke="#000000" stroke-width="1" x="942.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_55"
@@ -5406,19 +3110,8 @@
                     transient: parkingSpots.Group_C.spot_55.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-197"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="958.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-197" />
+                  <rect stroke="#000000" stroke-width="1" x="958.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_56"
@@ -5429,19 +3122,8 @@
                     transient: parkingSpots.Group_C.spot_56.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-198"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="974.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-198" />
+                  <rect stroke="#000000" stroke-width="1" x="974.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_57"
@@ -5452,19 +3134,8 @@
                     transient: parkingSpots.Group_C.spot_57.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-199"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="990.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-199" />
+                  <rect stroke="#000000" stroke-width="1" x="990.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_58"
@@ -5475,11 +3146,7 @@
                     transient: parkingSpots.Group_C.spot_58.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-200"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-200" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -5498,11 +3165,7 @@
                     transient: parkingSpots.Group_C.spot_59.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-201"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-201" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -5521,11 +3184,7 @@
                     transient: parkingSpots.Group_C.spot_60.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-202"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-202" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -5544,11 +3203,7 @@
                     transient: parkingSpots.Group_C.spot_61.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-203"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-203" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -5567,11 +3222,7 @@
                     transient: parkingSpots.Group_C.spot_62.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-204"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-204" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -5590,11 +3241,7 @@
                     transient: parkingSpots.Group_C.spot_63.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-205"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-205" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -5613,11 +3260,7 @@
                     transient: parkingSpots.Group_C.spot_64.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-206"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-206" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -5638,19 +3281,8 @@
                     transient: parkingSpots.Group_D.spot_0.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-207"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="0.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-207" />
+                  <rect stroke="#000000" stroke-width="1" x="0.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_1"
@@ -5661,19 +3293,8 @@
                     transient: parkingSpots.Group_D.spot_1.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-208"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="16.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-208" />
+                  <rect stroke="#000000" stroke-width="1" x="16.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_2"
@@ -5684,19 +3305,8 @@
                     transient: parkingSpots.Group_D.spot_2.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-209"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="33.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-209" />
+                  <rect stroke="#000000" stroke-width="1" x="33.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_3"
@@ -5707,19 +3317,8 @@
                     transient: parkingSpots.Group_D.spot_3.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-210"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="49.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-210" />
+                  <rect stroke="#000000" stroke-width="1" x="49.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_4"
@@ -5730,19 +3329,8 @@
                     transient: parkingSpots.Group_D.spot_4.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-211"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="66.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-211" />
+                  <rect stroke="#000000" stroke-width="1" x="66.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_5"
@@ -5753,19 +3341,8 @@
                     transient: parkingSpots.Group_D.spot_5.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-212"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="82.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-212" />
+                  <rect stroke="#000000" stroke-width="1" x="82.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_6"
@@ -5776,19 +3353,8 @@
                     transient: parkingSpots.Group_D.spot_6.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-213"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="99.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-213" />
+                  <rect stroke="#000000" stroke-width="1" x="99.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_7"
@@ -5799,19 +3365,8 @@
                     transient: parkingSpots.Group_D.spot_7.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-214"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="115.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-214" />
+                  <rect stroke="#000000" stroke-width="1" x="115.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_8"
@@ -5822,19 +3377,8 @@
                     transient: parkingSpots.Group_D.spot_8.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-215"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="132.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-215" />
+                  <rect stroke="#000000" stroke-width="1" x="132.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_9"
@@ -5845,19 +3389,8 @@
                     transient: parkingSpots.Group_D.spot_9.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-216"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="148.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-216" />
+                  <rect stroke="#000000" stroke-width="1" x="148.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_10"
@@ -5868,19 +3401,8 @@
                     transient: parkingSpots.Group_D.spot_10.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-217"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="165.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-217" />
+                  <rect stroke="#000000" stroke-width="1" x="165.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_11"
@@ -5891,19 +3413,8 @@
                     transient: parkingSpots.Group_D.spot_11.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-218"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="181.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-218" />
+                  <rect stroke="#000000" stroke-width="1" x="181.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_12"
@@ -5914,19 +3425,8 @@
                     transient: parkingSpots.Group_D.spot_12.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-219"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="198.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-219" />
+                  <rect stroke="#000000" stroke-width="1" x="198.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_13"
@@ -5937,19 +3437,8 @@
                     transient: parkingSpots.Group_D.spot_13.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-220"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="214.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-220" />
+                  <rect stroke="#000000" stroke-width="1" x="214.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_14"
@@ -5960,19 +3449,8 @@
                     transient: parkingSpots.Group_D.spot_14.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-221"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="231.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-221" />
+                  <rect stroke="#000000" stroke-width="1" x="231.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_15"
@@ -5983,19 +3461,8 @@
                     transient: parkingSpots.Group_D.spot_15.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-222"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="247.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-222" />
+                  <rect stroke="#000000" stroke-width="1" x="247.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_16"
@@ -6006,19 +3473,8 @@
                     transient: parkingSpots.Group_D.spot_16.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-223"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="264.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-223" />
+                  <rect stroke="#000000" stroke-width="1" x="264.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_17"
@@ -6029,19 +3485,8 @@
                     transient: parkingSpots.Group_D.spot_17.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-224"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="280.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-224" />
+                  <rect stroke="#000000" stroke-width="1" x="280.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_18"
@@ -6052,19 +3497,8 @@
                     transient: parkingSpots.Group_D.spot_18.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-225"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="297.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-225" />
+                  <rect stroke="#000000" stroke-width="1" x="297.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_19"
@@ -6075,19 +3509,8 @@
                     transient: parkingSpots.Group_D.spot_19.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-226"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="313.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-226" />
+                  <rect stroke="#000000" stroke-width="1" x="313.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_20"
@@ -6098,19 +3521,8 @@
                     transient: parkingSpots.Group_D.spot_20.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-227"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="395.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-227" />
+                  <rect stroke="#000000" stroke-width="1" x="395.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_21"
@@ -6121,19 +3533,8 @@
                     transient: parkingSpots.Group_D.spot_21.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-228"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="411.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-228" />
+                  <rect stroke="#000000" stroke-width="1" x="411.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_22"
@@ -6144,19 +3545,8 @@
                     transient: parkingSpots.Group_D.spot_22.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-229"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="427.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-229" />
+                  <rect stroke="#000000" stroke-width="1" x="427.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_23"
@@ -6167,19 +3557,8 @@
                     transient: parkingSpots.Group_D.spot_23.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-230"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="443.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-230" />
+                  <rect stroke="#000000" stroke-width="1" x="443.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_24"
@@ -6190,19 +3569,8 @@
                     transient: parkingSpots.Group_D.spot_24.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-231"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="459.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-231" />
+                  <rect stroke="#000000" stroke-width="1" x="459.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_25"
@@ -6213,19 +3581,8 @@
                     transient: parkingSpots.Group_D.spot_25.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-232"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="475.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-232" />
+                  <rect stroke="#000000" stroke-width="1" x="475.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_26"
@@ -6236,19 +3593,8 @@
                     transient: parkingSpots.Group_D.spot_26.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-233"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="491.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-233" />
+                  <rect stroke="#000000" stroke-width="1" x="491.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_27"
@@ -6259,19 +3605,8 @@
                     transient: parkingSpots.Group_D.spot_27.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-234"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="507.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-234" />
+                  <rect stroke="#000000" stroke-width="1" x="507.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_28"
@@ -6282,19 +3617,8 @@
                     transient: parkingSpots.Group_D.spot_28.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-235"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="523.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-235" />
+                  <rect stroke="#000000" stroke-width="1" x="523.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_29"
@@ -6305,19 +3629,8 @@
                     transient: parkingSpots.Group_D.spot_29.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-236"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="539.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-236" />
+                  <rect stroke="#000000" stroke-width="1" x="539.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_30"
@@ -6328,19 +3641,8 @@
                     transient: parkingSpots.Group_D.spot_30.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-237"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="556.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-237" />
+                  <rect stroke="#000000" stroke-width="1" x="556.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_31"
@@ -6351,19 +3653,8 @@
                     transient: parkingSpots.Group_D.spot_31.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-238"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="572.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-238" />
+                  <rect stroke="#000000" stroke-width="1" x="572.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_32"
@@ -6374,19 +3665,8 @@
                     transient: parkingSpots.Group_D.spot_32.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-239"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="588.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-239" />
+                  <rect stroke="#000000" stroke-width="1" x="588.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_33"
@@ -6397,19 +3677,8 @@
                     transient: parkingSpots.Group_D.spot_33.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-240"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="604.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-240" />
+                  <rect stroke="#000000" stroke-width="1" x="604.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_34"
@@ -6420,19 +3689,8 @@
                     transient: parkingSpots.Group_D.spot_34.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-241"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="620.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-241" />
+                  <rect stroke="#000000" stroke-width="1" x="620.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_35"
@@ -6443,19 +3701,8 @@
                     transient: parkingSpots.Group_D.spot_35.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-242"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="636.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-242" />
+                  <rect stroke="#000000" stroke-width="1" x="636.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_36"
@@ -6466,19 +3713,8 @@
                     transient: parkingSpots.Group_D.spot_36.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-243"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="652.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-243" />
+                  <rect stroke="#000000" stroke-width="1" x="652.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_37"
@@ -6489,19 +3725,8 @@
                     transient: parkingSpots.Group_D.spot_37.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-244"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="668.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-244" />
+                  <rect stroke="#000000" stroke-width="1" x="668.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_38"
@@ -6512,19 +3737,8 @@
                     transient: parkingSpots.Group_D.spot_38.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-245"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="684.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-245" />
+                  <rect stroke="#000000" stroke-width="1" x="684.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_39"
@@ -6535,19 +3749,8 @@
                     transient: parkingSpots.Group_D.spot_39.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-246"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="700.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-246" />
+                  <rect stroke="#000000" stroke-width="1" x="700.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_40"
@@ -6558,19 +3761,8 @@
                     transient: parkingSpots.Group_D.spot_40.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-247"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="717.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-247" />
+                  <rect stroke="#000000" stroke-width="1" x="717.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_41"
@@ -6581,19 +3773,8 @@
                     transient: parkingSpots.Group_D.spot_41.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-248"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="733.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-248" />
+                  <rect stroke="#000000" stroke-width="1" x="733.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_42"
@@ -6604,19 +3785,8 @@
                     transient: parkingSpots.Group_D.spot_42.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-249"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="749.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-249" />
+                  <rect stroke="#000000" stroke-width="1" x="749.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_43"
@@ -6627,19 +3797,8 @@
                     transient: parkingSpots.Group_D.spot_43.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-250"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="765.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-250" />
+                  <rect stroke="#000000" stroke-width="1" x="765.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_44"
@@ -6650,19 +3809,8 @@
                     transient: parkingSpots.Group_D.spot_44.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-251"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="781.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-251" />
+                  <rect stroke="#000000" stroke-width="1" x="781.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_45"
@@ -6673,19 +3821,8 @@
                     transient: parkingSpots.Group_D.spot_45.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-252"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="797.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-252" />
+                  <rect stroke="#000000" stroke-width="1" x="797.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_46"
@@ -6696,19 +3833,8 @@
                     transient: parkingSpots.Group_D.spot_46.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-253"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="813.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-253" />
+                  <rect stroke="#000000" stroke-width="1" x="813.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_47"
@@ -6719,19 +3845,8 @@
                     transient: parkingSpots.Group_D.spot_47.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-254"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="829.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-254" />
+                  <rect stroke="#000000" stroke-width="1" x="829.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_48"
@@ -6742,19 +3857,8 @@
                     transient: parkingSpots.Group_D.spot_48.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-255"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="845.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-255" />
+                  <rect stroke="#000000" stroke-width="1" x="845.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_49"
@@ -6765,19 +3869,8 @@
                     transient: parkingSpots.Group_D.spot_49.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-256"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="861.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-256" />
+                  <rect stroke="#000000" stroke-width="1" x="861.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_50"
@@ -6788,19 +3881,8 @@
                     transient: parkingSpots.Group_D.spot_50.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-257"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="878.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-257" />
+                  <rect stroke="#000000" stroke-width="1" x="878.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_51"
@@ -6811,19 +3893,8 @@
                     transient: parkingSpots.Group_D.spot_51.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-258"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="894.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-258" />
+                  <rect stroke="#000000" stroke-width="1" x="894.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_52"
@@ -6834,19 +3905,8 @@
                     transient: parkingSpots.Group_D.spot_52.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-259"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="910.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-259" />
+                  <rect stroke="#000000" stroke-width="1" x="910.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_53"
@@ -6857,19 +3917,8 @@
                     transient: parkingSpots.Group_D.spot_53.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-260"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="926.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-260" />
+                  <rect stroke="#000000" stroke-width="1" x="926.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_54"
@@ -6880,19 +3929,8 @@
                     transient: parkingSpots.Group_D.spot_54.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-261"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="942.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-261" />
+                  <rect stroke="#000000" stroke-width="1" x="942.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_55"
@@ -6903,19 +3941,8 @@
                     transient: parkingSpots.Group_D.spot_55.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-262"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="958.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-262" />
+                  <rect stroke="#000000" stroke-width="1" x="958.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_56"
@@ -6926,19 +3953,8 @@
                     transient: parkingSpots.Group_D.spot_56.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-263"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="974.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-263" />
+                  <rect stroke="#000000" stroke-width="1" x="974.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_57"
@@ -6949,19 +3965,8 @@
                     transient: parkingSpots.Group_D.spot_57.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-264"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="990.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-264" />
+                  <rect stroke="#000000" stroke-width="1" x="990.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_58"
@@ -6972,11 +3977,7 @@
                     transient: parkingSpots.Group_D.spot_58.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-265"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-265" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -6995,11 +3996,7 @@
                     transient: parkingSpots.Group_D.spot_59.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-266"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-266" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -7018,11 +4015,7 @@
                     transient: parkingSpots.Group_D.spot_60.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-267"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-267" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -7041,11 +4034,7 @@
                     transient: parkingSpots.Group_D.spot_61.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-268"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-268" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -7064,11 +4053,7 @@
                     transient: parkingSpots.Group_D.spot_62.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-269"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-269" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -7087,11 +4072,7 @@
                     transient: parkingSpots.Group_D.spot_63.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-270"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-270" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -7110,11 +4091,7 @@
                     transient: parkingSpots.Group_D.spot_64.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-271"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-271" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -7135,19 +4112,8 @@
                     transient: parkingSpots.Group_E.spot_0.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-272"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="0.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-272" />
+                  <rect stroke="#000000" stroke-width="1" x="0.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_1"
@@ -7158,19 +4124,8 @@
                     transient: parkingSpots.Group_E.spot_1.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-273"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="16.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-273" />
+                  <rect stroke="#000000" stroke-width="1" x="16.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_2"
@@ -7181,19 +4136,8 @@
                     transient: parkingSpots.Group_E.spot_2.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-274"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="33.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-274" />
+                  <rect stroke="#000000" stroke-width="1" x="33.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_3"
@@ -7204,19 +4148,8 @@
                     transient: parkingSpots.Group_E.spot_3.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-275"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="49.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-275" />
+                  <rect stroke="#000000" stroke-width="1" x="49.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_4"
@@ -7227,19 +4160,8 @@
                     transient: parkingSpots.Group_E.spot_4.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-276"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="66.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-276" />
+                  <rect stroke="#000000" stroke-width="1" x="66.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_5"
@@ -7250,19 +4172,8 @@
                     transient: parkingSpots.Group_E.spot_5.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-277"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="82.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-277" />
+                  <rect stroke="#000000" stroke-width="1" x="82.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_6"
@@ -7273,19 +4184,8 @@
                     transient: parkingSpots.Group_E.spot_6.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-278"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="99.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-278" />
+                  <rect stroke="#000000" stroke-width="1" x="99.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_7"
@@ -7296,19 +4196,8 @@
                     transient: parkingSpots.Group_E.spot_7.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-279"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="115.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-279" />
+                  <rect stroke="#000000" stroke-width="1" x="115.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_8"
@@ -7319,19 +4208,8 @@
                     transient: parkingSpots.Group_E.spot_8.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-280"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="132.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-280" />
+                  <rect stroke="#000000" stroke-width="1" x="132.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_9"
@@ -7342,19 +4220,8 @@
                     transient: parkingSpots.Group_E.spot_9.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-281"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="148.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-281" />
+                  <rect stroke="#000000" stroke-width="1" x="148.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_10"
@@ -7365,19 +4232,8 @@
                     transient: parkingSpots.Group_E.spot_10.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-282"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="165.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-282" />
+                  <rect stroke="#000000" stroke-width="1" x="165.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_11"
@@ -7388,19 +4244,8 @@
                     transient: parkingSpots.Group_E.spot_11.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-283"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="181.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-283" />
+                  <rect stroke="#000000" stroke-width="1" x="181.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_12"
@@ -7411,19 +4256,8 @@
                     transient: parkingSpots.Group_E.spot_12.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-284"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="198.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-284" />
+                  <rect stroke="#000000" stroke-width="1" x="198.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_13"
@@ -7434,19 +4268,8 @@
                     transient: parkingSpots.Group_E.spot_13.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-285"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="214.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-285" />
+                  <rect stroke="#000000" stroke-width="1" x="214.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_14"
@@ -7457,19 +4280,8 @@
                     transient: parkingSpots.Group_E.spot_14.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-286"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="231.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-286" />
+                  <rect stroke="#000000" stroke-width="1" x="231.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_15"
@@ -7480,19 +4292,8 @@
                     transient: parkingSpots.Group_E.spot_15.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-287"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="247.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-287" />
+                  <rect stroke="#000000" stroke-width="1" x="247.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_16"
@@ -7503,19 +4304,8 @@
                     transient: parkingSpots.Group_E.spot_16.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-288"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="264.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-288" />
+                  <rect stroke="#000000" stroke-width="1" x="264.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_17"
@@ -7526,19 +4316,8 @@
                     transient: parkingSpots.Group_E.spot_17.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-289"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="280.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-289" />
+                  <rect stroke="#000000" stroke-width="1" x="280.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_18"
@@ -7549,19 +4328,8 @@
                     transient: parkingSpots.Group_E.spot_18.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-290"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="297.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-290" />
+                  <rect stroke="#000000" stroke-width="1" x="297.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_19"
@@ -7572,19 +4340,8 @@
                     transient: parkingSpots.Group_E.spot_19.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-291"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="313.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-291" />
+                  <rect stroke="#000000" stroke-width="1" x="313.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_20"
@@ -7595,19 +4352,8 @@
                     transient: parkingSpots.Group_E.spot_20.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-292"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="395.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-292" />
+                  <rect stroke="#000000" stroke-width="1" x="395.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_21"
@@ -7618,19 +4364,8 @@
                     transient: parkingSpots.Group_E.spot_21.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-293"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="411.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-293" />
+                  <rect stroke="#000000" stroke-width="1" x="411.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_22"
@@ -7641,19 +4376,8 @@
                     transient: parkingSpots.Group_E.spot_22.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-294"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="427.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-294" />
+                  <rect stroke="#000000" stroke-width="1" x="427.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_23"
@@ -7664,19 +4388,8 @@
                     transient: parkingSpots.Group_E.spot_23.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-295"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="443.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-295" />
+                  <rect stroke="#000000" stroke-width="1" x="443.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_24"
@@ -7687,19 +4400,8 @@
                     transient: parkingSpots.Group_E.spot_24.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-296"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="459.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-296" />
+                  <rect stroke="#000000" stroke-width="1" x="459.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_25"
@@ -7710,19 +4412,8 @@
                     transient: parkingSpots.Group_E.spot_25.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-297"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="475.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-297" />
+                  <rect stroke="#000000" stroke-width="1" x="475.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_26"
@@ -7733,19 +4424,8 @@
                     transient: parkingSpots.Group_E.spot_26.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-298"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="491.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-298" />
+                  <rect stroke="#000000" stroke-width="1" x="491.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_27"
@@ -7756,19 +4436,8 @@
                     transient: parkingSpots.Group_E.spot_27.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-299"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="507.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-299" />
+                  <rect stroke="#000000" stroke-width="1" x="507.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_28"
@@ -7779,19 +4448,8 @@
                     transient: parkingSpots.Group_E.spot_28.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-300"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="523.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-300" />
+                  <rect stroke="#000000" stroke-width="1" x="523.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_29"
@@ -7802,19 +4460,8 @@
                     transient: parkingSpots.Group_E.spot_29.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-301"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="539.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-301" />
+                  <rect stroke="#000000" stroke-width="1" x="539.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_30"
@@ -7825,19 +4472,8 @@
                     transient: parkingSpots.Group_E.spot_30.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-302"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="556.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-302" />
+                  <rect stroke="#000000" stroke-width="1" x="556.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_31"
@@ -7848,19 +4484,8 @@
                     transient: parkingSpots.Group_E.spot_31.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-303"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="572.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-303" />
+                  <rect stroke="#000000" stroke-width="1" x="572.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_32"
@@ -7871,19 +4496,8 @@
                     transient: parkingSpots.Group_E.spot_32.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-304"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="588.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-304" />
+                  <rect stroke="#000000" stroke-width="1" x="588.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_33"
@@ -7894,19 +4508,8 @@
                     transient: parkingSpots.Group_E.spot_33.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-305"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="604.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-305" />
+                  <rect stroke="#000000" stroke-width="1" x="604.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_34"
@@ -7917,19 +4520,8 @@
                     transient: parkingSpots.Group_E.spot_34.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-306"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="620.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-306" />
+                  <rect stroke="#000000" stroke-width="1" x="620.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_35"
@@ -7940,19 +4532,8 @@
                     transient: parkingSpots.Group_E.spot_35.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-307"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="636.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-307" />
+                  <rect stroke="#000000" stroke-width="1" x="636.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_36"
@@ -7963,19 +4544,8 @@
                     transient: parkingSpots.Group_E.spot_36.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-308"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="652.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-308" />
+                  <rect stroke="#000000" stroke-width="1" x="652.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_37"
@@ -7986,19 +4556,8 @@
                     transient: parkingSpots.Group_E.spot_37.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-309"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="668.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-309" />
+                  <rect stroke="#000000" stroke-width="1" x="668.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_38"
@@ -8009,19 +4568,8 @@
                     transient: parkingSpots.Group_E.spot_38.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-310"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="684.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-310" />
+                  <rect stroke="#000000" stroke-width="1" x="684.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_39"
@@ -8032,19 +4580,8 @@
                     transient: parkingSpots.Group_E.spot_39.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-311"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="700.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-311" />
+                  <rect stroke="#000000" stroke-width="1" x="700.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_40"
@@ -8055,19 +4592,8 @@
                     transient: parkingSpots.Group_E.spot_40.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-312"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="717.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-312" />
+                  <rect stroke="#000000" stroke-width="1" x="717.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_41"
@@ -8078,19 +4604,8 @@
                     transient: parkingSpots.Group_E.spot_41.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-313"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="733.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-313" />
+                  <rect stroke="#000000" stroke-width="1" x="733.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_42"
@@ -8101,19 +4616,8 @@
                     transient: parkingSpots.Group_E.spot_42.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-314"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="749.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-314" />
+                  <rect stroke="#000000" stroke-width="1" x="749.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_43"
@@ -8124,19 +4628,8 @@
                     transient: parkingSpots.Group_E.spot_43.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-315"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="765.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-315" />
+                  <rect stroke="#000000" stroke-width="1" x="765.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_44"
@@ -8147,19 +4640,8 @@
                     transient: parkingSpots.Group_E.spot_44.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-316"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="781.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-316" />
+                  <rect stroke="#000000" stroke-width="1" x="781.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_45"
@@ -8170,19 +4652,8 @@
                     transient: parkingSpots.Group_E.spot_45.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-317"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="797.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-317" />
+                  <rect stroke="#000000" stroke-width="1" x="797.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_46"
@@ -8193,19 +4664,8 @@
                     transient: parkingSpots.Group_E.spot_46.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-318"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="813.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-318" />
+                  <rect stroke="#000000" stroke-width="1" x="813.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_47"
@@ -8216,19 +4676,8 @@
                     transient: parkingSpots.Group_E.spot_47.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-319"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="829.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-319" />
+                  <rect stroke="#000000" stroke-width="1" x="829.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_48"
@@ -8239,19 +4688,8 @@
                     transient: parkingSpots.Group_E.spot_48.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-320"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="845.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-320" />
+                  <rect stroke="#000000" stroke-width="1" x="845.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_49"
@@ -8262,19 +4700,8 @@
                     transient: parkingSpots.Group_E.spot_49.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-321"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="861.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-321" />
+                  <rect stroke="#000000" stroke-width="1" x="861.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_50"
@@ -8285,19 +4712,8 @@
                     transient: parkingSpots.Group_E.spot_50.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-322"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="878.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-322" />
+                  <rect stroke="#000000" stroke-width="1" x="878.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_51"
@@ -8308,19 +4724,8 @@
                     transient: parkingSpots.Group_E.spot_51.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-323"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="894.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-323" />
+                  <rect stroke="#000000" stroke-width="1" x="894.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_52"
@@ -8331,19 +4736,8 @@
                     transient: parkingSpots.Group_E.spot_52.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-324"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="910.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-324" />
+                  <rect stroke="#000000" stroke-width="1" x="910.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_53"
@@ -8354,19 +4748,8 @@
                     transient: parkingSpots.Group_E.spot_53.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-325"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="926.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-325" />
+                  <rect stroke="#000000" stroke-width="1" x="926.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_54"
@@ -8377,19 +4760,8 @@
                     transient: parkingSpots.Group_E.spot_54.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-326"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="942.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-326" />
+                  <rect stroke="#000000" stroke-width="1" x="942.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_55"
@@ -8400,19 +4772,8 @@
                     transient: parkingSpots.Group_E.spot_55.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-327"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="958.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-327" />
+                  <rect stroke="#000000" stroke-width="1" x="958.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_56"
@@ -8423,19 +4784,8 @@
                     transient: parkingSpots.Group_E.spot_56.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-328"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="974.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-328" />
+                  <rect stroke="#000000" stroke-width="1" x="974.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_57"
@@ -8446,19 +4796,8 @@
                     transient: parkingSpots.Group_E.spot_57.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-329"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="990.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-329" />
+                  <rect stroke="#000000" stroke-width="1" x="990.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_58"
@@ -8469,11 +4808,7 @@
                     transient: parkingSpots.Group_E.spot_58.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-330"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-330" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -8492,11 +4827,7 @@
                     transient: parkingSpots.Group_E.spot_59.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-331"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-331" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -8515,11 +4846,7 @@
                     transient: parkingSpots.Group_E.spot_60.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-332"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-332" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -8538,11 +4865,7 @@
                     transient: parkingSpots.Group_E.spot_61.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-333"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-333" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -8561,11 +4884,7 @@
                     transient: parkingSpots.Group_E.spot_62.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-334"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-334" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -8584,11 +4903,7 @@
                     transient: parkingSpots.Group_E.spot_63.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-335"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-335" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -8607,11 +4922,7 @@
                     transient: parkingSpots.Group_E.spot_64.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-336"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-336" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -8632,19 +4943,8 @@
                     transient: parkingSpots.Group_F.spot_0.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-337"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="0.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-337" />
+                  <rect stroke="#000000" stroke-width="1" x="0.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_1"
@@ -8655,19 +4955,8 @@
                     transient: parkingSpots.Group_F.spot_1.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-338"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="16.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-338" />
+                  <rect stroke="#000000" stroke-width="1" x="16.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_2"
@@ -8678,19 +4967,8 @@
                     transient: parkingSpots.Group_F.spot_2.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-339"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="33.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-339" />
+                  <rect stroke="#000000" stroke-width="1" x="33.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_3"
@@ -8701,19 +4979,8 @@
                     transient: parkingSpots.Group_F.spot_3.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-340"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="49.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-340" />
+                  <rect stroke="#000000" stroke-width="1" x="49.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_4"
@@ -8724,19 +4991,8 @@
                     transient: parkingSpots.Group_F.spot_4.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-341"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="66.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-341" />
+                  <rect stroke="#000000" stroke-width="1" x="66.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_5"
@@ -8747,19 +5003,8 @@
                     transient: parkingSpots.Group_F.spot_5.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-342"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="82.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-342" />
+                  <rect stroke="#000000" stroke-width="1" x="82.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_6"
@@ -8770,19 +5015,8 @@
                     transient: parkingSpots.Group_F.spot_6.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-343"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="99.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-343" />
+                  <rect stroke="#000000" stroke-width="1" x="99.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_7"
@@ -8793,19 +5027,8 @@
                     transient: parkingSpots.Group_F.spot_7.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-344"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="115.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-344" />
+                  <rect stroke="#000000" stroke-width="1" x="115.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_8"
@@ -8816,19 +5039,8 @@
                     transient: parkingSpots.Group_F.spot_8.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-345"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="132.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-345" />
+                  <rect stroke="#000000" stroke-width="1" x="132.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_9"
@@ -8839,19 +5051,8 @@
                     transient: parkingSpots.Group_F.spot_9.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-346"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="148.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-346" />
+                  <rect stroke="#000000" stroke-width="1" x="148.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_10"
@@ -8862,19 +5063,8 @@
                     transient: parkingSpots.Group_F.spot_10.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-347"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="165.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-347" />
+                  <rect stroke="#000000" stroke-width="1" x="165.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_11"
@@ -8885,19 +5075,8 @@
                     transient: parkingSpots.Group_F.spot_11.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-348"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="181.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-348" />
+                  <rect stroke="#000000" stroke-width="1" x="181.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_12"
@@ -8908,19 +5087,8 @@
                     transient: parkingSpots.Group_F.spot_12.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-349"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="198.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-349" />
+                  <rect stroke="#000000" stroke-width="1" x="198.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_13"
@@ -8931,19 +5099,8 @@
                     transient: parkingSpots.Group_F.spot_13.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-350"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="214.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-350" />
+                  <rect stroke="#000000" stroke-width="1" x="214.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_14"
@@ -8954,19 +5111,8 @@
                     transient: parkingSpots.Group_F.spot_14.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-351"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="231.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-351" />
+                  <rect stroke="#000000" stroke-width="1" x="231.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_15"
@@ -8977,19 +5123,8 @@
                     transient: parkingSpots.Group_F.spot_15.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-352"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="247.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-352" />
+                  <rect stroke="#000000" stroke-width="1" x="247.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_16"
@@ -9000,19 +5135,8 @@
                     transient: parkingSpots.Group_F.spot_16.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-353"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="264.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-353" />
+                  <rect stroke="#000000" stroke-width="1" x="264.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_17"
@@ -9023,19 +5147,8 @@
                     transient: parkingSpots.Group_F.spot_17.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-354"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="280.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-354" />
+                  <rect stroke="#000000" stroke-width="1" x="280.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_18"
@@ -9046,19 +5159,8 @@
                     transient: parkingSpots.Group_F.spot_18.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-355"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="297.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-355" />
+                  <rect stroke="#000000" stroke-width="1" x="297.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_20"
@@ -9069,19 +5171,8 @@
                     transient: parkingSpots.Group_F.spot_20.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-356"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="379.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-356" />
+                  <rect stroke="#000000" stroke-width="1" x="379.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_21"
@@ -9092,19 +5183,8 @@
                     transient: parkingSpots.Group_F.spot_21.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-357"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="395.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-357" />
+                  <rect stroke="#000000" stroke-width="1" x="395.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_22"
@@ -9115,19 +5195,8 @@
                     transient: parkingSpots.Group_F.spot_22.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-358"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="411.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-358" />
+                  <rect stroke="#000000" stroke-width="1" x="411.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_23"
@@ -9138,19 +5207,8 @@
                     transient: parkingSpots.Group_F.spot_23.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-359"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="427.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-359" />
+                  <rect stroke="#000000" stroke-width="1" x="427.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_24"
@@ -9161,19 +5219,8 @@
                     transient: parkingSpots.Group_F.spot_24.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-360"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="443.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-360" />
+                  <rect stroke="#000000" stroke-width="1" x="443.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_25"
@@ -9184,19 +5231,8 @@
                     transient: parkingSpots.Group_F.spot_25.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-361"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="459.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-361" />
+                  <rect stroke="#000000" stroke-width="1" x="459.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_26"
@@ -9207,19 +5243,8 @@
                     transient: parkingSpots.Group_F.spot_26.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-362"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="475.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-362" />
+                  <rect stroke="#000000" stroke-width="1" x="475.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_27"
@@ -9230,19 +5255,8 @@
                     transient: parkingSpots.Group_F.spot_27.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-363"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="491.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-363" />
+                  <rect stroke="#000000" stroke-width="1" x="491.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_28"
@@ -9253,19 +5267,8 @@
                     transient: parkingSpots.Group_F.spot_28.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-364"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="507.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-364" />
+                  <rect stroke="#000000" stroke-width="1" x="507.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_29"
@@ -9276,19 +5279,8 @@
                     transient: parkingSpots.Group_F.spot_29.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-365"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="523.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-365" />
+                  <rect stroke="#000000" stroke-width="1" x="523.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_30"
@@ -9299,19 +5291,8 @@
                     transient: parkingSpots.Group_F.spot_30.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-366"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="540.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-366" />
+                  <rect stroke="#000000" stroke-width="1" x="540.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_31"
@@ -9322,19 +5303,8 @@
                     transient: parkingSpots.Group_F.spot_31.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-367"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="556.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-367" />
+                  <rect stroke="#000000" stroke-width="1" x="556.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_32"
@@ -9345,19 +5315,8 @@
                     transient: parkingSpots.Group_F.spot_32.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-368"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="572.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-368" />
+                  <rect stroke="#000000" stroke-width="1" x="572.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_33"
@@ -9368,19 +5327,8 @@
                     transient: parkingSpots.Group_F.spot_33.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-369"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="588.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-369" />
+                  <rect stroke="#000000" stroke-width="1" x="588.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_34"
@@ -9391,19 +5339,8 @@
                     transient: parkingSpots.Group_F.spot_34.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-370"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="604.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-370" />
+                  <rect stroke="#000000" stroke-width="1" x="604.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_35"
@@ -9414,19 +5351,8 @@
                     transient: parkingSpots.Group_F.spot_35.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-371"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="620.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-371" />
+                  <rect stroke="#000000" stroke-width="1" x="620.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_36"
@@ -9437,19 +5363,8 @@
                     transient: parkingSpots.Group_F.spot_36.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-372"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="636.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-372" />
+                  <rect stroke="#000000" stroke-width="1" x="636.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_37"
@@ -9460,19 +5375,8 @@
                     transient: parkingSpots.Group_F.spot_37.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-373"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="652.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-373" />
+                  <rect stroke="#000000" stroke-width="1" x="652.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_38"
@@ -9483,19 +5387,8 @@
                     transient: parkingSpots.Group_F.spot_38.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-374"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="668.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-374" />
+                  <rect stroke="#000000" stroke-width="1" x="668.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_39"
@@ -9506,19 +5399,8 @@
                     transient: parkingSpots.Group_F.spot_39.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-375"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="684.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-375" />
+                  <rect stroke="#000000" stroke-width="1" x="684.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_40"
@@ -9529,19 +5411,8 @@
                     transient: parkingSpots.Group_F.spot_40.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-376"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="701.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-376" />
+                  <rect stroke="#000000" stroke-width="1" x="701.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_41"
@@ -9552,19 +5423,8 @@
                     transient: parkingSpots.Group_F.spot_41.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-377"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="717.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-377" />
+                  <rect stroke="#000000" stroke-width="1" x="717.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_42"
@@ -9575,19 +5435,8 @@
                     transient: parkingSpots.Group_F.spot_42.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-378"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="733.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-378" />
+                  <rect stroke="#000000" stroke-width="1" x="733.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_43"
@@ -9598,19 +5447,8 @@
                     transient: parkingSpots.Group_F.spot_43.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-379"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="749.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-379" />
+                  <rect stroke="#000000" stroke-width="1" x="749.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_44"
@@ -9621,19 +5459,8 @@
                     transient: parkingSpots.Group_F.spot_44.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-380"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="765.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-380" />
+                  <rect stroke="#000000" stroke-width="1" x="765.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_45"
@@ -9644,19 +5471,8 @@
                     transient: parkingSpots.Group_F.spot_45.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-381"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="781.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-381" />
+                  <rect stroke="#000000" stroke-width="1" x="781.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_46"
@@ -9667,19 +5483,8 @@
                     transient: parkingSpots.Group_F.spot_46.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-382"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="797.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-382" />
+                  <rect stroke="#000000" stroke-width="1" x="797.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_47"
@@ -9690,19 +5495,8 @@
                     transient: parkingSpots.Group_F.spot_47.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-383"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="813.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-383" />
+                  <rect stroke="#000000" stroke-width="1" x="813.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_48"
@@ -9713,19 +5507,8 @@
                     transient: parkingSpots.Group_F.spot_48.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-384"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="829.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-384" />
+                  <rect stroke="#000000" stroke-width="1" x="829.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_49"
@@ -9736,19 +5519,8 @@
                     transient: parkingSpots.Group_F.spot_49.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-385"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="845.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-385" />
+                  <rect stroke="#000000" stroke-width="1" x="845.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_50"
@@ -9759,19 +5531,8 @@
                     transient: parkingSpots.Group_F.spot_50.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-386"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="862.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-386" />
+                  <rect stroke="#000000" stroke-width="1" x="862.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_51"
@@ -9782,19 +5543,8 @@
                     transient: parkingSpots.Group_F.spot_51.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-387"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="878.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-387" />
+                  <rect stroke="#000000" stroke-width="1" x="878.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_52"
@@ -9805,19 +5555,8 @@
                     transient: parkingSpots.Group_F.spot_52.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-388"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="894.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-388" />
+                  <rect stroke="#000000" stroke-width="1" x="894.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_53"
@@ -9828,19 +5567,8 @@
                     transient: parkingSpots.Group_F.spot_53.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-389"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="910.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-389" />
+                  <rect stroke="#000000" stroke-width="1" x="910.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_54"
@@ -9851,19 +5579,8 @@
                     transient: parkingSpots.Group_F.spot_54.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-390"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="926.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-390" />
+                  <rect stroke="#000000" stroke-width="1" x="926.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_55"
@@ -9874,19 +5591,8 @@
                     transient: parkingSpots.Group_F.spot_55.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-391"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="942.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-391" />
+                  <rect stroke="#000000" stroke-width="1" x="942.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_56"
@@ -9897,19 +5603,8 @@
                     transient: parkingSpots.Group_F.spot_56.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-392"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="958.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-392" />
+                  <rect stroke="#000000" stroke-width="1" x="958.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_57"
@@ -9920,19 +5615,8 @@
                     transient: parkingSpots.Group_F.spot_57.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-393"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="974.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-393" />
+                  <rect stroke="#000000" stroke-width="1" x="974.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_58"
@@ -9943,19 +5627,8 @@
                     transient: parkingSpots.Group_F.spot_58.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-394"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="990.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-394" />
+                  <rect stroke="#000000" stroke-width="1" x="990.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_59"
@@ -9966,11 +5639,7 @@
                     transient: parkingSpots.Group_F.spot_59.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-395"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-395" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -9989,11 +5658,7 @@
                     transient: parkingSpots.Group_F.spot_60.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-396"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-396" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -10012,11 +5677,7 @@
                     transient: parkingSpots.Group_F.spot_61.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-397"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-397" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -10035,11 +5696,7 @@
                     transient: parkingSpots.Group_F.spot_62.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-398"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-398" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -10058,11 +5715,7 @@
                     transient: parkingSpots.Group_F.spot_63.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-399"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-399" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -10081,11 +5734,7 @@
                     transient: parkingSpots.Group_F.spot_64.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-400"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-400" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -10106,19 +5755,8 @@
                     transient: parkingSpots.Group_G.spot_0.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-401"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="0.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-401" />
+                  <rect stroke="#000000" stroke-width="1" x="0.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_1"
@@ -10129,19 +5767,8 @@
                     transient: parkingSpots.Group_G.spot_1.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-402"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="17.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-402" />
+                  <rect stroke="#000000" stroke-width="1" x="17.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_2"
@@ -10152,19 +5779,8 @@
                     transient: parkingSpots.Group_G.spot_2.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-403"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="34.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-403" />
+                  <rect stroke="#000000" stroke-width="1" x="34.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_3"
@@ -10175,19 +5791,8 @@
                     transient: parkingSpots.Group_G.spot_3.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-404"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="51.5"
-                    y="0.5"
-                    width="15"
-                    height="31"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-404" />
+                  <rect stroke="#000000" stroke-width="1" x="51.5" y="0.5" width="15" height="31" />
                 </g>
                 <g
                   id="spot_4"
@@ -10198,19 +5803,8 @@
                     transient: parkingSpots.Group_G.spot_4.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-405"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="68.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-405" />
+                  <rect stroke="#000000" stroke-width="1" x="68.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_5"
@@ -10221,19 +5815,8 @@
                     transient: parkingSpots.Group_G.spot_5.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-406"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="85.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-406" />
+                  <rect stroke="#000000" stroke-width="1" x="85.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_6"
@@ -10244,19 +5827,8 @@
                     transient: parkingSpots.Group_G.spot_6.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-407"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="102.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-407" />
+                  <rect stroke="#000000" stroke-width="1" x="102.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_7"
@@ -10267,19 +5839,8 @@
                     transient: parkingSpots.Group_G.spot_7.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-408"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="119.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-408" />
+                  <rect stroke="#000000" stroke-width="1" x="119.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_8"
@@ -10290,19 +5851,8 @@
                     transient: parkingSpots.Group_G.spot_8.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-409"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="136.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-409" />
+                  <rect stroke="#000000" stroke-width="1" x="136.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_9"
@@ -10313,19 +5863,8 @@
                     transient: parkingSpots.Group_G.spot_9.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-410"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="153.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-410" />
+                  <rect stroke="#000000" stroke-width="1" x="153.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_10"
@@ -10336,19 +5875,8 @@
                     transient: parkingSpots.Group_G.spot_10.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-411"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="170.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-411" />
+                  <rect stroke="#000000" stroke-width="1" x="170.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_11"
@@ -10359,19 +5887,8 @@
                     transient: parkingSpots.Group_G.spot_11.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-412"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="195.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-412" />
+                  <rect stroke="#000000" stroke-width="1" x="195.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_12"
@@ -10382,19 +5899,8 @@
                     transient: parkingSpots.Group_G.spot_12.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-413"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="210.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-413" />
+                  <rect stroke="#000000" stroke-width="1" x="210.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_13"
@@ -10405,19 +5911,8 @@
                     transient: parkingSpots.Group_G.spot_13.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-414"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="234.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-414" />
+                  <rect stroke="#000000" stroke-width="1" x="234.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_14"
@@ -10428,19 +5923,8 @@
                     transient: parkingSpots.Group_G.spot_14.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-415"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="249.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-415" />
+                  <rect stroke="#000000" stroke-width="1" x="249.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_15"
@@ -10451,19 +5935,8 @@
                     transient: parkingSpots.Group_G.spot_15.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-416"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="265.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-416" />
+                  <rect stroke="#000000" stroke-width="1" x="265.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_16"
@@ -10474,19 +5947,8 @@
                     transient: parkingSpots.Group_G.spot_16.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-417"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="280.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-417" />
+                  <rect stroke="#000000" stroke-width="1" x="280.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_17"
@@ -10497,19 +5959,8 @@
                     transient: parkingSpots.Group_G.spot_17.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-418"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="296.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-418" />
+                  <rect stroke="#000000" stroke-width="1" x="296.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_20"
@@ -10520,19 +5971,8 @@
                     transient: parkingSpots.Group_G.spot_20.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-419"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="382.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-419" />
+                  <rect stroke="#000000" stroke-width="1" x="382.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_21"
@@ -10543,19 +5983,8 @@
                     transient: parkingSpots.Group_G.spot_21.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-420"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="398.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-420" />
+                  <rect stroke="#000000" stroke-width="1" x="398.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_22"
@@ -10566,19 +5995,8 @@
                     transient: parkingSpots.Group_G.spot_22.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-421"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="414.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-421" />
+                  <rect stroke="#000000" stroke-width="1" x="414.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_23"
@@ -10589,19 +6007,8 @@
                     transient: parkingSpots.Group_G.spot_23.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-422"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="430.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-422" />
+                  <rect stroke="#000000" stroke-width="1" x="430.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_24"
@@ -10612,19 +6019,8 @@
                     transient: parkingSpots.Group_G.spot_24.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-423"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="446.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-423" />
+                  <rect stroke="#000000" stroke-width="1" x="446.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_25"
@@ -10635,19 +6031,8 @@
                     transient: parkingSpots.Group_G.spot_25.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-424"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="462.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-424" />
+                  <rect stroke="#000000" stroke-width="1" x="462.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_26"
@@ -10658,19 +6043,8 @@
                     transient: parkingSpots.Group_G.spot_26.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-425"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="478.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-425" />
+                  <rect stroke="#000000" stroke-width="1" x="478.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_27"
@@ -10681,19 +6055,8 @@
                     transient: parkingSpots.Group_G.spot_27.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-426"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="494.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-426" />
+                  <rect stroke="#000000" stroke-width="1" x="494.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_28"
@@ -10704,19 +6067,8 @@
                     transient: parkingSpots.Group_G.spot_28.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-427"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="510.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-427" />
+                  <rect stroke="#000000" stroke-width="1" x="510.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_29"
@@ -10727,19 +6079,8 @@
                     transient: parkingSpots.Group_G.spot_29.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-428"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="526.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-428" />
+                  <rect stroke="#000000" stroke-width="1" x="526.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_30"
@@ -10750,19 +6091,8 @@
                     transient: parkingSpots.Group_G.spot_30.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-429"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="543.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-429" />
+                  <rect stroke="#000000" stroke-width="1" x="543.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_31"
@@ -10773,19 +6103,8 @@
                     transient: parkingSpots.Group_G.spot_31.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-430"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="559.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-430" />
+                  <rect stroke="#000000" stroke-width="1" x="559.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_32"
@@ -10796,19 +6115,8 @@
                     transient: parkingSpots.Group_G.spot_32.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-431"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="575.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-431" />
+                  <rect stroke="#000000" stroke-width="1" x="575.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_33"
@@ -10819,19 +6127,8 @@
                     transient: parkingSpots.Group_G.spot_33.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-432"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="591.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-432" />
+                  <rect stroke="#000000" stroke-width="1" x="591.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_34"
@@ -10842,19 +6139,8 @@
                     transient: parkingSpots.Group_G.spot_34.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-433"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="607.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-433" />
+                  <rect stroke="#000000" stroke-width="1" x="607.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_35"
@@ -10865,19 +6151,8 @@
                     transient: parkingSpots.Group_G.spot_35.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-434"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="623.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-434" />
+                  <rect stroke="#000000" stroke-width="1" x="623.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_36"
@@ -10888,19 +6163,8 @@
                     transient: parkingSpots.Group_G.spot_36.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-435"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="639.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-435" />
+                  <rect stroke="#000000" stroke-width="1" x="639.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_37"
@@ -10911,19 +6175,8 @@
                     transient: parkingSpots.Group_G.spot_37.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-436"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="655.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-436" />
+                  <rect stroke="#000000" stroke-width="1" x="655.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_38"
@@ -10934,19 +6187,8 @@
                     transient: parkingSpots.Group_G.spot_38.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-437"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="671.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-437" />
+                  <rect stroke="#000000" stroke-width="1" x="671.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_39"
@@ -10957,19 +6199,8 @@
                     transient: parkingSpots.Group_G.spot_39.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-438"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="687.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-438" />
+                  <rect stroke="#000000" stroke-width="1" x="687.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_40"
@@ -10980,19 +6211,8 @@
                     transient: parkingSpots.Group_G.spot_40.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-439"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="704.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-439" />
+                  <rect stroke="#000000" stroke-width="1" x="704.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_41"
@@ -11003,19 +6223,8 @@
                     transient: parkingSpots.Group_G.spot_41.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-440"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="720.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-440" />
+                  <rect stroke="#000000" stroke-width="1" x="720.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_42"
@@ -11026,19 +6235,8 @@
                     transient: parkingSpots.Group_G.spot_42.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-441"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="736.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-441" />
+                  <rect stroke="#000000" stroke-width="1" x="736.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_43"
@@ -11049,19 +6247,8 @@
                     transient: parkingSpots.Group_G.spot_43.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-442"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="752.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-442" />
+                  <rect stroke="#000000" stroke-width="1" x="752.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_44"
@@ -11072,19 +6259,8 @@
                     transient: parkingSpots.Group_G.spot_44.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-443"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="768.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-443" />
+                  <rect stroke="#000000" stroke-width="1" x="768.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_45"
@@ -11095,19 +6271,8 @@
                     transient: parkingSpots.Group_G.spot_45.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-444"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="784.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-444" />
+                  <rect stroke="#000000" stroke-width="1" x="784.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_46"
@@ -11118,19 +6283,8 @@
                     transient: parkingSpots.Group_G.spot_46.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-445"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="800.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-445" />
+                  <rect stroke="#000000" stroke-width="1" x="800.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_47"
@@ -11141,19 +6295,8 @@
                     transient: parkingSpots.Group_G.spot_47.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-446"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="816.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-446" />
+                  <rect stroke="#000000" stroke-width="1" x="816.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_48"
@@ -11164,19 +6307,8 @@
                     transient: parkingSpots.Group_G.spot_48.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-447"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="832.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-447" />
+                  <rect stroke="#000000" stroke-width="1" x="832.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_49"
@@ -11187,19 +6319,8 @@
                     transient: parkingSpots.Group_G.spot_49.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-448"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="848.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-448" />
+                  <rect stroke="#000000" stroke-width="1" x="848.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_50"
@@ -11210,19 +6331,8 @@
                     transient: parkingSpots.Group_G.spot_50.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-449"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="865.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-449" />
+                  <rect stroke="#000000" stroke-width="1" x="865.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_51"
@@ -11233,19 +6343,8 @@
                     transient: parkingSpots.Group_G.spot_51.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-450"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="881.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-450" />
+                  <rect stroke="#000000" stroke-width="1" x="881.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_52"
@@ -11256,19 +6355,8 @@
                     transient: parkingSpots.Group_G.spot_52.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-451"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="897.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-451" />
+                  <rect stroke="#000000" stroke-width="1" x="897.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_53"
@@ -11279,19 +6367,8 @@
                     transient: parkingSpots.Group_G.spot_53.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-452"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="913.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-452" />
+                  <rect stroke="#000000" stroke-width="1" x="913.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_54"
@@ -11302,19 +6379,8 @@
                     transient: parkingSpots.Group_G.spot_54.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-453"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="929.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-453" />
+                  <rect stroke="#000000" stroke-width="1" x="929.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_55"
@@ -11325,19 +6391,8 @@
                     transient: parkingSpots.Group_G.spot_55.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-454"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="945.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-454" />
+                  <rect stroke="#000000" stroke-width="1" x="945.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_56"
@@ -11348,19 +6403,8 @@
                     transient: parkingSpots.Group_G.spot_56.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-455"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="961.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-455" />
+                  <rect stroke="#000000" stroke-width="1" x="961.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_57"
@@ -11371,19 +6415,8 @@
                     transient: parkingSpots.Group_G.spot_57.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-456"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="977.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-456" />
+                  <rect stroke="#000000" stroke-width="1" x="977.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_58"
@@ -11394,19 +6427,8 @@
                     transient: parkingSpots.Group_G.spot_58.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-457"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="993.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-457" />
+                  <rect stroke="#000000" stroke-width="1" x="993.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_59"
@@ -11417,11 +6439,7 @@
                     transient: parkingSpots.Group_G.spot_59.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-458"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-458" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -11440,11 +6458,7 @@
                     transient: parkingSpots.Group_G.spot_60.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-459"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-459" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -11463,11 +6477,7 @@
                     transient: parkingSpots.Group_G.spot_61.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-460"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-460" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -11486,11 +6496,7 @@
                     transient: parkingSpots.Group_G.spot_62.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-461"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-461" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -11509,11 +6515,7 @@
                     transient: parkingSpots.Group_G.spot_63.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-462"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-462" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -11532,11 +6534,7 @@
                     transient: parkingSpots.Group_G.spot_64.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-463"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-463" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -11557,19 +6555,8 @@
                     transient: parkingSpots.Group_H.spot_0.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-464"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="0.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-464" />
+                  <rect stroke="#000000" stroke-width="1" x="0.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_1"
@@ -11580,19 +6567,8 @@
                     transient: parkingSpots.Group_H.spot_1.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-465"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="17.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-465" />
+                  <rect stroke="#000000" stroke-width="1" x="17.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_2"
@@ -11603,19 +6579,8 @@
                     transient: parkingSpots.Group_H.spot_2.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-466"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="34.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-466" />
+                  <rect stroke="#000000" stroke-width="1" x="34.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_3"
@@ -11626,19 +6591,8 @@
                     transient: parkingSpots.Group_H.spot_3.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-467"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="50.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-467" />
+                  <rect stroke="#000000" stroke-width="1" x="50.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_4"
@@ -11649,19 +6603,8 @@
                     transient: parkingSpots.Group_H.spot_4.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-468"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="67.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-468" />
+                  <rect stroke="#000000" stroke-width="1" x="67.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_5"
@@ -11672,19 +6615,8 @@
                     transient: parkingSpots.Group_H.spot_5.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-469"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="84.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-469" />
+                  <rect stroke="#000000" stroke-width="1" x="84.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_6"
@@ -11695,19 +6627,8 @@
                     transient: parkingSpots.Group_H.spot_6.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-470"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="100.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-470" />
+                  <rect stroke="#000000" stroke-width="1" x="100.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_7"
@@ -11718,19 +6639,8 @@
                     transient: parkingSpots.Group_H.spot_7.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-471"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="117.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-471" />
+                  <rect stroke="#000000" stroke-width="1" x="117.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_8"
@@ -11741,19 +6651,8 @@
                     transient: parkingSpots.Group_H.spot_8.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-472"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="134.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-472" />
+                  <rect stroke="#000000" stroke-width="1" x="134.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_9"
@@ -11764,19 +6663,8 @@
                     transient: parkingSpots.Group_H.spot_9.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-473"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="150.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-473" />
+                  <rect stroke="#000000" stroke-width="1" x="150.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_10"
@@ -11787,19 +6675,8 @@
                     transient: parkingSpots.Group_H.spot_10.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-474"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="167.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-474" />
+                  <rect stroke="#000000" stroke-width="1" x="167.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_11"
@@ -11810,19 +6687,8 @@
                     transient: parkingSpots.Group_H.spot_11.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-475"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="184.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-475" />
+                  <rect stroke="#000000" stroke-width="1" x="184.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_12"
@@ -11833,19 +6699,8 @@
                     transient: parkingSpots.Group_H.spot_12.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-476"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="210.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-476" />
+                  <rect stroke="#000000" stroke-width="1" x="210.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_13"
@@ -11856,19 +6711,8 @@
                     transient: parkingSpots.Group_H.spot_13.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-477"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="234.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-477" />
+                  <rect stroke="#000000" stroke-width="1" x="234.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_14"
@@ -11879,19 +6723,8 @@
                     transient: parkingSpots.Group_H.spot_14.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-478"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="284.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-478" />
+                  <rect stroke="#000000" stroke-width="1" x="284.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_15"
@@ -11902,19 +6735,8 @@
                     transient: parkingSpots.Group_H.spot_15.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-479"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="309.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-479" />
+                  <rect stroke="#000000" stroke-width="1" x="309.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_16"
@@ -11925,19 +6747,8 @@
                     transient: parkingSpots.Group_H.spot_16.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-480"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="324.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-480" />
+                  <rect stroke="#000000" stroke-width="1" x="324.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_17"
@@ -11948,19 +6759,8 @@
                     transient: parkingSpots.Group_H.spot_17.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-481"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="349.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-481" />
+                  <rect stroke="#000000" stroke-width="1" x="349.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_18"
@@ -11971,19 +6771,8 @@
                     transient: parkingSpots.Group_H.spot_18.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-482"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="366.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-482" />
+                  <rect stroke="#000000" stroke-width="1" x="366.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_19"
@@ -11994,19 +6783,8 @@
                     transient: parkingSpots.Group_H.spot_19.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-483"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="383.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-483" />
+                  <rect stroke="#000000" stroke-width="1" x="383.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_20"
@@ -12017,19 +6795,8 @@
                     transient: parkingSpots.Group_H.spot_20.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-484"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="400.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-484" />
+                  <rect stroke="#000000" stroke-width="1" x="400.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_21"
@@ -12040,19 +6807,8 @@
                     transient: parkingSpots.Group_H.spot_21.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-485"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="417.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-485" />
+                  <rect stroke="#000000" stroke-width="1" x="417.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_22"
@@ -12063,19 +6819,8 @@
                     transient: parkingSpots.Group_H.spot_22.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-486"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="433.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-486" />
+                  <rect stroke="#000000" stroke-width="1" x="433.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_23"
@@ -12086,19 +6831,8 @@
                     transient: parkingSpots.Group_H.spot_23.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-487"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="450.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-487" />
+                  <rect stroke="#000000" stroke-width="1" x="450.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_24"
@@ -12109,19 +6843,8 @@
                     transient: parkingSpots.Group_H.spot_24.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-488"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="466.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-488" />
+                  <rect stroke="#000000" stroke-width="1" x="466.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_25"
@@ -12132,19 +6855,8 @@
                     transient: parkingSpots.Group_H.spot_25.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-489"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="483.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-489" />
+                  <rect stroke="#000000" stroke-width="1" x="483.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_26"
@@ -12155,19 +6867,8 @@
                     transient: parkingSpots.Group_H.spot_26.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-490"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="499.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-490" />
+                  <rect stroke="#000000" stroke-width="1" x="499.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_27"
@@ -12178,19 +6879,8 @@
                     transient: parkingSpots.Group_H.spot_27.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-491"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="516.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-491" />
+                  <rect stroke="#000000" stroke-width="1" x="516.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_28"
@@ -12201,19 +6891,8 @@
                     transient: parkingSpots.Group_H.spot_28.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-492"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="532.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-492" />
+                  <rect stroke="#000000" stroke-width="1" x="532.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_29"
@@ -12224,19 +6903,8 @@
                     transient: parkingSpots.Group_H.spot_29.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-493"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="549.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-493" />
+                  <rect stroke="#000000" stroke-width="1" x="549.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_30"
@@ -12247,19 +6915,8 @@
                     transient: parkingSpots.Group_H.spot_30.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-494"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="565.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-494" />
+                  <rect stroke="#000000" stroke-width="1" x="565.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_31"
@@ -12270,19 +6927,8 @@
                     transient: parkingSpots.Group_H.spot_31.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-495"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="594.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-495" />
+                  <rect stroke="#000000" stroke-width="1" x="594.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_32"
@@ -12293,19 +6939,8 @@
                     transient: parkingSpots.Group_H.spot_32.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-496"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="610.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-496" />
+                  <rect stroke="#000000" stroke-width="1" x="610.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_33"
@@ -12316,19 +6951,8 @@
                     transient: parkingSpots.Group_H.spot_33.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-497"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="627.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-497" />
+                  <rect stroke="#000000" stroke-width="1" x="627.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_34"
@@ -12339,19 +6963,8 @@
                     transient: parkingSpots.Group_H.spot_34.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-498"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="643.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-498" />
+                  <rect stroke="#000000" stroke-width="1" x="643.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_35"
@@ -12362,19 +6975,8 @@
                     transient: parkingSpots.Group_H.spot_35.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-499"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="660.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-499" />
+                  <rect stroke="#000000" stroke-width="1" x="660.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_36"
@@ -12385,19 +6987,8 @@
                     transient: parkingSpots.Group_H.spot_36.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-500"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="676.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-500" />
+                  <rect stroke="#000000" stroke-width="1" x="676.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_37"
@@ -12408,19 +6999,8 @@
                     transient: parkingSpots.Group_H.spot_37.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-501"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="693.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-501" />
+                  <rect stroke="#000000" stroke-width="1" x="693.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_38"
@@ -12431,19 +7011,8 @@
                     transient: parkingSpots.Group_H.spot_38.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-502"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="709.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-502" />
+                  <rect stroke="#000000" stroke-width="1" x="709.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_39"
@@ -12454,19 +7023,8 @@
                     transient: parkingSpots.Group_H.spot_39.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-503"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="726.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-503" />
+                  <rect stroke="#000000" stroke-width="1" x="726.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_40"
@@ -12477,19 +7035,8 @@
                     transient: parkingSpots.Group_H.spot_40.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-504"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="742.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-504" />
+                  <rect stroke="#000000" stroke-width="1" x="742.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_41"
@@ -12500,19 +7047,8 @@
                     transient: parkingSpots.Group_H.spot_41.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-505"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="759.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-505" />
+                  <rect stroke="#000000" stroke-width="1" x="759.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_42"
@@ -12523,19 +7059,8 @@
                     transient: parkingSpots.Group_H.spot_42.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-506"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="775.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-506" />
+                  <rect stroke="#000000" stroke-width="1" x="775.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_43"
@@ -12546,19 +7071,8 @@
                     transient: parkingSpots.Group_H.spot_43.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-507"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="792.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-507" />
+                  <rect stroke="#000000" stroke-width="1" x="792.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_44"
@@ -12569,19 +7083,8 @@
                     transient: parkingSpots.Group_H.spot_44.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-508"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="808.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-508" />
+                  <rect stroke="#000000" stroke-width="1" x="808.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_45"
@@ -12592,19 +7095,8 @@
                     transient: parkingSpots.Group_H.spot_45.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-509"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="825.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-509" />
+                  <rect stroke="#000000" stroke-width="1" x="825.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_46"
@@ -12615,19 +7107,8 @@
                     transient: parkingSpots.Group_H.spot_46.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-510"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="841.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-510" />
+                  <rect stroke="#000000" stroke-width="1" x="841.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_47"
@@ -12638,19 +7119,8 @@
                     transient: parkingSpots.Group_H.spot_47.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-511"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="914.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-511" />
+                  <rect stroke="#000000" stroke-width="1" x="914.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_48"
@@ -12661,19 +7131,8 @@
                     transient: parkingSpots.Group_H.spot_48.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-512"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="931.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-512" />
+                  <rect stroke="#000000" stroke-width="1" x="931.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_49"
@@ -12684,19 +7143,8 @@
                     transient: parkingSpots.Group_H.spot_49.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-513"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="948.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-513" />
+                  <rect stroke="#000000" stroke-width="1" x="948.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_50"
@@ -12707,19 +7155,8 @@
                     transient: parkingSpots.Group_H.spot_50.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-514"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="965.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-514" />
+                  <rect stroke="#000000" stroke-width="1" x="965.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_51"
@@ -12730,19 +7167,8 @@
                     transient: parkingSpots.Group_H.spot_51.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-515"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="982.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-515" />
+                  <rect stroke="#000000" stroke-width="1" x="982.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_52"
@@ -12753,19 +7179,8 @@
                     transient: parkingSpots.Group_H.spot_52.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-516"
-                  />
-                  <rect
-                    stroke="#000000"
-                    stroke-width="1"
-                    x="999.5"
-                    y="0.5"
-                    width="15"
-                    height="34"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-516" />
+                  <rect stroke="#000000" stroke-width="1" x="999.5" y="0.5" width="15" height="34" />
                 </g>
                 <g
                   id="spot_53"
@@ -12776,11 +7191,7 @@
                     transient: parkingSpots.Group_H.spot_53.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-517"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-517" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -12799,11 +7210,7 @@
                     transient: parkingSpots.Group_H.spot_54.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-518"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-518" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -12822,11 +7229,7 @@
                     transient: parkingSpots.Group_H.spot_55.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-519"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-519" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -12845,11 +7248,7 @@
                     transient: parkingSpots.Group_H.spot_56.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-520"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-520" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -12868,11 +7267,7 @@
                     transient: parkingSpots.Group_H.spot_57.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-521"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-521" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -12891,11 +7286,7 @@
                     transient: parkingSpots.Group_H.spot_58.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-522"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-522" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -12914,11 +7305,7 @@
                     transient: parkingSpots.Group_H.spot_59.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-523"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-523" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -12937,11 +7324,7 @@
                     transient: parkingSpots.Group_H.spot_60.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-524"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-524" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -12960,11 +7343,7 @@
                     transient: parkingSpots.Group_H.spot_61.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-525"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-525" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -12983,11 +7362,7 @@
                     transient: parkingSpots.Group_H.spot_62.status == 2
                   }"
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-526"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-526" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13009,11 +7384,7 @@
                   }"
                   transform="translate(18.222665, 8.627791) rotate(90.000000) translate(-18.222665, -8.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-527"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-527" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13033,11 +7404,7 @@
                   }"
                   transform="translate(18.222665, 24.627791) rotate(90.000000) translate(-18.222665, -24.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-528"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-528" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13057,11 +7424,7 @@
                   }"
                   transform="translate(18.222665, 40.627791) rotate(90.000000) translate(-18.222665, -40.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-529"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-529" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13081,11 +7444,7 @@
                   }"
                   transform="translate(18.222665, 56.627791) rotate(90.000000) translate(-18.222665, -56.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-530"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-530" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13105,11 +7464,7 @@
                   }"
                   transform="translate(18.222665, 72.627791) rotate(90.000000) translate(-18.222665, -72.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-531"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-531" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13129,11 +7484,7 @@
                   }"
                   transform="translate(18.222665, 88.627791) rotate(90.000000) translate(-18.222665, -88.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-532"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-532" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13153,11 +7504,7 @@
                   }"
                   transform="translate(18.222665, 105.627791) rotate(90.000000) translate(-18.222665, -105.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-533"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-533" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13177,11 +7524,7 @@
                   }"
                   transform="translate(18.222665, 121.627791) rotate(90.000000) translate(-18.222665, -121.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-534"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-534" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13201,11 +7544,7 @@
                   }"
                   transform="translate(18.222665, 137.627791) rotate(90.000000) translate(-18.222665, -137.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-535"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-535" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13225,11 +7564,7 @@
                   }"
                   transform="translate(18.222665, 153.627791) rotate(90.000000) translate(-18.222665, -153.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-536"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-536" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13249,11 +7584,7 @@
                   }"
                   transform="translate(18.222665, 170.627791) rotate(90.000000) translate(-18.222665, -170.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-537"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-537" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13273,11 +7604,7 @@
                   }"
                   transform="translate(18.222665, 186.627791) rotate(90.000000) translate(-18.222665, -186.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-538"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-538" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13297,11 +7624,7 @@
                   }"
                   transform="translate(18.222665, 202.627791) rotate(90.000000) translate(-18.222665, -202.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-539"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-539" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13321,11 +7644,7 @@
                   }"
                   transform="translate(18.222665, 219.627791) rotate(90.000000) translate(-18.222665, -219.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-540"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-540" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13345,11 +7664,7 @@
                   }"
                   transform="translate(18.222665, 235.627791) rotate(90.000000) translate(-18.222665, -235.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-541"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-541" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13369,11 +7684,7 @@
                   }"
                   transform="translate(18.222665, 251.627791) rotate(90.000000) translate(-18.222665, -251.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-542"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-542" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13393,11 +7704,7 @@
                   }"
                   transform="translate(18.222665, 267.627791) rotate(90.000000) translate(-18.222665, -267.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-543"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-543" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13417,11 +7724,7 @@
                   }"
                   transform="translate(18.222665, 285.627791) rotate(90.000000) translate(-18.222665, -285.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-544"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-544" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13441,11 +7744,7 @@
                   }"
                   transform="translate(18.222665, 301.627791) rotate(90.000000) translate(-18.222665, -301.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-545"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-545" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13465,11 +7764,7 @@
                   }"
                   transform="translate(18.222665, 317.627791) rotate(90.000000) translate(-18.222665, -317.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-546"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-546" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13489,11 +7784,7 @@
                   }"
                   transform="translate(18.222665, 333.627791) rotate(90.000000) translate(-18.222665, -333.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-547"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-547" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13513,11 +7804,7 @@
                   }"
                   transform="translate(18.222665, 349.627791) rotate(90.000000) translate(-18.222665, -349.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-548"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-548" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13537,11 +7824,7 @@
                   }"
                   transform="translate(18.222665, 365.627791) rotate(90.000000) translate(-18.222665, -365.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-549"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-549" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13563,11 +7846,7 @@
                   }"
                   transform="translate(18.222665, 8.627791) rotate(90.000000) translate(-18.222665, -8.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-550"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-550" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13587,11 +7866,7 @@
                   }"
                   transform="translate(18.222665, 24.627791) rotate(90.000000) translate(-18.222665, -24.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-551"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-551" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13611,11 +7886,7 @@
                   }"
                   transform="translate(18.222665, 40.627791) rotate(90.000000) translate(-18.222665, -40.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-552"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-552" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13635,11 +7906,7 @@
                   }"
                   transform="translate(18.222665, 56.627791) rotate(90.000000) translate(-18.222665, -56.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-553"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-553" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13659,11 +7926,7 @@
                   }"
                   transform="translate(18.222665, 72.627791) rotate(90.000000) translate(-18.222665, -72.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-554"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-554" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13683,11 +7946,7 @@
                   }"
                   transform="translate(18.222665, 88.627791) rotate(90.000000) translate(-18.222665, -88.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-555"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-555" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13707,11 +7966,7 @@
                   }"
                   transform="translate(18.222665, 105.627791) rotate(90.000000) translate(-18.222665, -105.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-556"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-556" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13731,11 +7986,7 @@
                   }"
                   transform="translate(18.222665, 121.627791) rotate(90.000000) translate(-18.222665, -121.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-557"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-557" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13755,11 +8006,7 @@
                   }"
                   transform="translate(18.222665, 137.627791) rotate(90.000000) translate(-18.222665, -137.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-558"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-558" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13779,11 +8026,7 @@
                   }"
                   transform="translate(18.222665, 153.627791) rotate(90.000000) translate(-18.222665, -153.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-559"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-559" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13803,11 +8046,7 @@
                   }"
                   transform="translate(18.222665, 170.627791) rotate(90.000000) translate(-18.222665, -170.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-560"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-560" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13827,11 +8066,7 @@
                   }"
                   transform="translate(18.222665, 186.627791) rotate(90.000000) translate(-18.222665, -186.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-561"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-561" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13851,11 +8086,7 @@
                   }"
                   transform="translate(18.222665, 202.627791) rotate(90.000000) translate(-18.222665, -202.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-562"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-562" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13875,11 +8106,7 @@
                   }"
                   transform="translate(18.222665, 219.627791) rotate(90.000000) translate(-18.222665, -219.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-563"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-563" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13899,11 +8126,7 @@
                   }"
                   transform="translate(18.222665, 235.627791) rotate(90.000000) translate(-18.222665, -235.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-564"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-564" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13923,11 +8146,7 @@
                   }"
                   transform="translate(18.222665, 251.627791) rotate(90.000000) translate(-18.222665, -251.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-565"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-565" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13947,11 +8166,7 @@
                   }"
                   transform="translate(18.222665, 267.627791) rotate(90.000000) translate(-18.222665, -267.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-566"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-566" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13971,11 +8186,7 @@
                   }"
                   transform="translate(18.222665, 285.627791) rotate(90.000000) translate(-18.222665, -285.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-567"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-567" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -13995,11 +8206,7 @@
                   }"
                   transform="translate(18.222665, 301.627791) rotate(90.000000) translate(-18.222665, -301.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-568"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-568" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -14019,11 +8226,7 @@
                   }"
                   transform="translate(18.222665, 317.627791) rotate(90.000000) translate(-18.222665, -317.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-569"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-569" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -14043,11 +8246,7 @@
                   }"
                   transform="translate(18.222665, 333.627791) rotate(90.000000) translate(-18.222665, -333.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-570"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-570" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -14067,11 +8266,7 @@
                   }"
                   transform="translate(18.222665, 349.627791) rotate(90.000000) translate(-18.222665, -349.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-571"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-571" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -14091,11 +8286,7 @@
                   }"
                   transform="translate(18.222665, 365.627791) rotate(90.000000) translate(-18.222665, -365.627791) "
                 >
-                  <use
-                    fill="#E3FCCA"
-                    fill-rule="evenodd"
-                    xlink:href="#path-572"
-                  />
+                  <use fill="#E3FCCA" fill-rule="evenodd" xlink:href="#path-572" />
                   <rect
                     stroke="#000000"
                     stroke-width="1"
@@ -14109,25 +8300,6 @@
             </g>
           </g>
         </svg>
-      </div>
-    </div>
-    <div>
-      <h1>Zone 1</h1>
-      <div class="zone1">
-        {{
-          (parkingSpots.Group_A.spot_0.status +
-            parkingSpots.Group_B.spot_0.status +
-            parkingSpots.Group_C.spot_0.status +
-            parkingSpots.Group_D.spot_0.status +
-            parkingSpots.Group_E.spot_0.status +
-            parkingSpots.Group_F.spot_0.status +
-            parkingSpots.Group_G.spot_0.status +
-            parkingSpots.Group_H.spot_0.status +
-            parkingSpots.Group_I.spot_0.status +
-            parkingSpots.Group_J.spot_0.status) *
-            55
-        }}
-        / 400
       </div>
     </div>
   </section>
@@ -16568,6 +10740,25 @@ export default {
       let iotdata = JSON.parse(msg).IotData
       console.log(this.parkingSpots)
       this.parkingSpots = iotdata
+    },
+    getZone0() {
+      let totalFree = 0
+      if (this.parkingSpots.Group_H.spot_58.status == 0) {
+        totalFree += 1
+      }
+      if (this.parkingSpots.Group_H.spot_59.status == 0) {
+        totalFree += 1
+      }
+      if (this.parkingSpots.Group_H.spot_60.status == 0) {
+        totalFree += 1
+      }
+      if (this.parkingSpots.Group_H.spot_61.status == 0) {
+        totalFree += 1
+      }
+      if (this.parkingSpots.Group_H.spot_62.status == 0) {
+        totalFree += 1
+      }
+      return totalFree
     }
   },
   created() {
@@ -16586,45 +10777,25 @@ export default {
 
 .find-parking {
   min-height: 50vh;
-  padding-top: 5vh;
+  padding: 5vh;
 }
 
 .parking-lot {
   display: flex;
-  & #parking-lot-svg {
-    max-height: 70vh;
-    margin: 0 auto;
-  }
-}
-
-.availability {
-  & ul {
-    list-style: none;
-    display: flex;
-
-    li {
-      height: 550px;
-      width: 250px;
-      margin: 25px;
-      background-color: green;
-    }
-  }
-}
-
-.availability .ocupied {
-  background-color: red;
+  align-items: center;
+  justify-content: center;
 }
 
 #Parking_lot g .na {
-  fill: #ffdfc4;
+  fill: #808080;
 }
 #Parking_lot g .free {
   fill: #66baba;
 }
 #Parking_lot g .ocupied {
-  fill: #808080;
+  fill: #ff998c;
 }
 #Parking_lot g .transient {
-  fill: #ff998c;
+  fill: #ffdfc4;
 }
 </style>
