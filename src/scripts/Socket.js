@@ -1,9 +1,10 @@
 import Vue from 'vue'
 
-// const protocol = document.location.protocol.startsWith('https')
-//   ? 'wss://'
-//   : 'ws://'
-const webSocket = new WebSocket('ws://' + 'vez-socket.herokuapp.com:80')
+const protocol = document.location.protocol.startsWith('https')
+  ? 'wss://'
+  : 'ws://'
+
+const webSocket = new WebSocket(protocol + 'socket.vezparking.com:80')
 
 const emitter = new Vue({
   methods: {
