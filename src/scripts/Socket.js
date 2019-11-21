@@ -4,7 +4,11 @@ const protocol = document.location.protocol.startsWith('https')
   ? 'wss://'
   : 'ws://'
 
-const webSocket = new WebSocket(protocol + 'socket.vezparking.com:443')
+const port = document.location.protocol.startsWith('https')
+  ? '443'
+  : '80'
+
+const webSocket = new WebSocket(protocol + 'socket.vezparking.com:' + port)
 
 const emitter = new Vue({
   methods: {
