@@ -14140,17 +14140,2427 @@ export default {
   data() {
     return {
       parkingSpots: {
-        Group_A: {},
-        Group_B: {},
-        Group_C: {},
-        Group_D: {},
-        Group_E: {},
-        Group_F: {},
-        Group_G: {},
-        Group_H: {},
-        Group_I: {},
-        Group_J: {}
+    Group_A: {
+      spot_0: {
+        status:  -1
+      },
+      spot_1: {
+        status:  -1
+      },
+      spot_2: {
+        status:  -1
+      },
+      spot_3: {
+        status:  -1
+      },
+      spot_4: {
+        status:  -1
+      },
+      spot_5: {
+        status:  -1
+      },
+      spot_6: {
+        status:  -1
+      },
+      spot_7: {
+        status:  -1
+      },
+      spot_8: {
+        status:  -1
+      },
+      spot_9: {
+        status:  -1
+      },
+      spot_10: {
+        status:  -1
+      },
+      spot_11: {
+        status:  -1
+      },
+      spot_12: {
+        status:  -1
+      },
+      spot_13: {
+        status:  -1
+      },
+      spot_14: {
+        status:  -1
+      },
+      spot_15: {
+        status:  -1
+      },
+      spot_16: {
+        status:  -1
+      },
+      spot_17: {
+        status:  -1
+      },
+      spot_18: {
+        status:  -1
+      },
+      spot_19: {
+        status:  -1
+      },
+      spot_20: {
+        status:  -1
+      },
+      spot_21: {
+        status:  -1
+      },
+      spot_22: {
+        status:  -1
+      },
+      spot_23: {
+        status:  -1
+      },
+      spot_24: {
+        status:  -1
+      },
+      spot_25: {
+        status:  -1
+      },
+      spot_26: {
+        status:  -1
+      },
+      spot_27: {
+        status:  -1
+      },
+      spot_28: {
+        status:  -1
+      },
+      spot_29: {
+        status:  -1
+      },
+      spot_30: {
+        status:  -1
+      },
+      spot_31: {
+        status:  -1
+      },
+      spot_32: {
+        status:  -1
+      },
+      spot_33: {
+        status:  -1
+      },
+      spot_34: {
+        status:  -1
+      },
+      spot_35: {
+        status:  -1
+      },
+      spot_36: {
+        status:  -1
+      },
+      spot_37: {
+        status:  -1
+      },
+      spot_38: {
+        status:  -1
+      },
+      spot_39: {
+        status:  -1
+      },
+      spot_40: {
+        status:  -1
+      },
+      spot_41: {
+        status:  -1
+      },
+      spot_42: {
+        status:  -1
+      },
+      spot_43: {
+        status:  -1
+      },
+      spot_44: {
+        status:  -1
+      },
+      spot_45: {
+        status:  -1
+      },
+      spot_46: {
+        status:  -1
+      },
+      spot_47: {
+        status:  -1
+      },
+      spot_48: {
+        status:  -1
+      },
+      spot_49: {
+        status:  -1
+      },
+      spot_50: {
+        status:  -1
+      },
+      spot_51: {
+        status:  -1
+      },
+      spot_52: {
+        status:  -1
+      },
+      spot_53: {
+        status:  -1
+      },
+      spot_54: {
+        status:  -1
+      },
+      spot_55: {
+        status:  -1
+      },
+      spot_56: {
+        status:  -1
+      },
+      spot_57: {
+        status:  -1
+      },
+      spot_58: {
+        status:  -1
+      },
+      spot_59: {
+        status:  -1
+      },
+      spot_60: {
+        status:  -1
+      },
+      spot_61: {
+        status:  -1
+      },
+      spot_62: {
+        status:  -1
+      },
+      spot_63: {
+        status:  -1
+      },
+      spot_64: {
+        status:  -1
+      },
+      spot_65: {
+        status:  -1
+      },
+      spot_66: {
+        status:  -1
+      },
+      spot_67: {
+        status:  -1
+      },
+      spot_68: {
+        status:  -1
+      },
+      spot_69: {
+        status:  -1
+      },
+      spot_70: {
+        status:  -1
+      },
+      spot_71: {
+        status:  -1
+      },
+      spot_72: {
+        status:  -1
+      },
+      spot_73: {
+        status:  -1
+      },
+      spot_74: {
+        status:  -1
+      },
+      spot_75: {
+        status:  -1
+      },
+      spot_76: {
+        status:  -1
+      },
+      spot_77: {
+        status:  -1
+      },
+      spot_78: {
+        status:  -1
+      },
+      spot_79: {
+        status:  -1
       }
+    },
+    Group_B: {
+      spot_0: {
+        status:  -1
+      },
+      spot_1: {
+        status:  -1
+      },
+      spot_2: {
+        status:  -1
+      },
+      spot_3: {
+        status:  -1
+      },
+      spot_4: {
+        status:  -1
+      },
+      spot_5: {
+        status:  -1
+      },
+      spot_6: {
+        status:  -1
+      },
+      spot_7: {
+        status:  -1
+      },
+      spot_8: {
+        status:  -1
+      },
+      spot_9: {
+        status:  -1
+      },
+      spot_10: {
+        status:  -1
+      },
+      spot_11: {
+        status:  -1
+      },
+      spot_12: {
+        status:  -1
+      },
+      spot_13: {
+        status:  -1
+      },
+      spot_14: {
+        status:  -1
+      },
+      spot_15: {
+        status:  -1
+      },
+      spot_16: {
+        status:  -1
+      },
+      spot_17: {
+        status:  -1
+      },
+      spot_18: {
+        status:  -1
+      },
+      spot_19: {
+        status:  -1
+      },
+      spot_20: {
+        status:  -1
+      },
+      spot_21: {
+        status:  -1
+      },
+      spot_22: {
+        status:  -1
+      },
+      spot_23: {
+        status:  -1
+      },
+      spot_24: {
+        status:  -1
+      },
+      spot_25: {
+        status:  -1
+      },
+      spot_26: {
+        status:  -1
+      },
+      spot_27: {
+        status:  -1
+      },
+      spot_28: {
+        status:  -1
+      },
+      spot_29: {
+        status:  -1
+      },
+      spot_30: {
+        status:  -1
+      },
+      spot_31: {
+        status:  -1
+      },
+      spot_32: {
+        status:  -1
+      },
+      spot_33: {
+        status:  -1
+      },
+      spot_34: {
+        status:  -1
+      },
+      spot_35: {
+        status:  -1
+      },
+      spot_36: {
+        status:  -1
+      },
+      spot_37: {
+        status:  -1
+      },
+      spot_38: {
+        status:  -1
+      },
+      spot_39: {
+        status:  -1
+      },
+      spot_40: {
+        status:  -1
+      },
+      spot_41: {
+        status:  -1
+      },
+      spot_42: {
+        status:  -1
+      },
+      spot_43: {
+        status:  -1
+      },
+      spot_44: {
+        status:  -1
+      },
+      spot_45: {
+        status:  -1
+      },
+      spot_46: {
+        status:  -1
+      },
+      spot_47: {
+        status:  -1
+      },
+      spot_48: {
+        status:  -1
+      },
+      spot_49: {
+        status:  -1
+      },
+      spot_50: {
+        status:  -1
+      },
+      spot_51: {
+        status:  -1
+      },
+      spot_52: {
+        status:  -1
+      },
+      spot_53: {
+        status:  -1
+      },
+      spot_54: {
+        status:  -1
+      },
+      spot_55: {
+        status:  -1
+      },
+      spot_56: {
+        status:  -1
+      },
+      spot_57: {
+        status:  -1
+      },
+      spot_58: {
+        status:  -1
+      },
+      spot_59: {
+        status:  -1
+      },
+      spot_60: {
+        status:  -1
+      },
+      spot_61: {
+        status:  -1
+      },
+      spot_62: {
+        status:  -1
+      },
+      spot_63: {
+        status:  -1
+      },
+      spot_64: {
+        status:  -1
+      },
+      spot_65: {
+        status:  -1
+      },
+      spot_66: {
+        status:  -1
+      },
+      spot_67: {
+        status:  -1
+      },
+      spot_68: {
+        status:  -1
+      },
+      spot_69: {
+        status:  -1
+      },
+      spot_70: {
+        status:  -1
+      },
+      spot_71: {
+        status:  -1
+      },
+      spot_72: {
+        status:  -1
+      },
+      spot_73: {
+        status:  -1
+      },
+      spot_74: {
+        status:  -1
+      },
+      spot_75: {
+        status:  -1
+      },
+      spot_76: {
+        status:  -1
+      },
+      spot_77: {
+        status:  -1
+      },
+      spot_78: {
+        status:  -1
+      },
+      spot_79: {
+        status:  -1
+      }
+    },
+    Group_C: {
+      spot_0: {
+        status:  -1
+      },
+      spot_1: {
+        status:  -1
+      },
+      spot_2: {
+        status:  -1
+      },
+      spot_3: {
+        status:  -1
+      },
+      spot_4: {
+        status:  -1
+      },
+      spot_5: {
+        status:  -1
+      },
+      spot_6: {
+        status:  -1
+      },
+      spot_7: {
+        status:  -1
+      },
+      spot_8: {
+        status:  -1
+      },
+      spot_9: {
+        status:  -1
+      },
+      spot_10: {
+        status:  -1
+      },
+      spot_11: {
+        status:  -1
+      },
+      spot_12: {
+        status:  -1
+      },
+      spot_13: {
+        status:  -1
+      },
+      spot_14: {
+        status:  -1
+      },
+      spot_15: {
+        status:  -1
+      },
+      spot_16: {
+        status:  -1
+      },
+      spot_17: {
+        status:  -1
+      },
+      spot_18: {
+        status:  -1
+      },
+      spot_19: {
+        status:  -1
+      },
+      spot_20: {
+        status:  -1
+      },
+      spot_21: {
+        status:  -1
+      },
+      spot_22: {
+        status:  -1
+      },
+      spot_23: {
+        status:  -1
+      },
+      spot_24: {
+        status:  -1
+      },
+      spot_25: {
+        status:  -1
+      },
+      spot_26: {
+        status:  -1
+      },
+      spot_27: {
+        status:  -1
+      },
+      spot_28: {
+        status:  -1
+      },
+      spot_29: {
+        status:  -1
+      },
+      spot_30: {
+        status:  -1
+      },
+      spot_31: {
+        status:  -1
+      },
+      spot_32: {
+        status:  -1
+      },
+      spot_33: {
+        status:  -1
+      },
+      spot_34: {
+        status:  -1
+      },
+      spot_35: {
+        status:  -1
+      },
+      spot_36: {
+        status:  -1
+      },
+      spot_37: {
+        status:  -1
+      },
+      spot_38: {
+        status:  -1
+      },
+      spot_39: {
+        status:  -1
+      },
+      spot_40: {
+        status:  -1
+      },
+      spot_41: {
+        status:  -1
+      },
+      spot_42: {
+        status:  -1
+      },
+      spot_43: {
+        status:  -1
+      },
+      spot_44: {
+        status:  -1
+      },
+      spot_45: {
+        status:  -1
+      },
+      spot_46: {
+        status:  -1
+      },
+      spot_47: {
+        status:  -1
+      },
+      spot_48: {
+        status:  -1
+      },
+      spot_49: {
+        status:  -1
+      },
+      spot_50: {
+        status:  -1
+      },
+      spot_51: {
+        status:  -1
+      },
+      spot_52: {
+        status:  -1
+      },
+      spot_53: {
+        status:  -1
+      },
+      spot_54: {
+        status:  -1
+      },
+      spot_55: {
+        status:  -1
+      },
+      spot_56: {
+        status:  -1
+      },
+      spot_57: {
+        status:  -1
+      },
+      spot_58: {
+        status:  -1
+      },
+      spot_59: {
+        status:  -1
+      },
+      spot_60: {
+        status:  -1
+      },
+      spot_61: {
+        status:  -1
+      },
+      spot_62: {
+        status:  -1
+      },
+      spot_63: {
+        status:  -1
+      },
+      spot_64: {
+        status:  -1
+      },
+      spot_65: {
+        status:  -1
+      },
+      spot_66: {
+        status:  -1
+      },
+      spot_67: {
+        status:  -1
+      },
+      spot_68: {
+        status:  -1
+      },
+      spot_69: {
+        status:  -1
+      },
+      spot_70: {
+        status:  -1
+      },
+      spot_71: {
+        status:  -1
+      },
+      spot_72: {
+        status:  -1
+      },
+      spot_73: {
+        status:  -1
+      },
+      spot_74: {
+        status:  -1
+      },
+      spot_75: {
+        status:  -1
+      },
+      spot_76: {
+        status:  -1
+      },
+      spot_77: {
+        status:  -1
+      },
+      spot_78: {
+        status:  -1
+      },
+      spot_79: {
+        status:  -1
+      }
+    },
+    Group_D: {
+      spot_0: {
+        status:  -1
+      },
+      spot_1: {
+        status:  -1
+      },
+      spot_2: {
+        status:  -1
+      },
+      spot_3: {
+        status:  -1
+      },
+      spot_4: {
+        status:  -1
+      },
+      spot_5: {
+        status:  -1
+      },
+      spot_6: {
+        status:  -1
+      },
+      spot_7: {
+        status:  -1
+      },
+      spot_8: {
+        status:  -1
+      },
+      spot_9: {
+        status:  -1
+      },
+      spot_10: {
+        status:  -1
+      },
+      spot_11: {
+        status:  -1
+      },
+      spot_12: {
+        status:  -1
+      },
+      spot_13: {
+        status:  -1
+      },
+      spot_14: {
+        status:  -1
+      },
+      spot_15: {
+        status:  -1
+      },
+      spot_16: {
+        status:  -1
+      },
+      spot_17: {
+        status:  -1
+      },
+      spot_18: {
+        status:  -1
+      },
+      spot_19: {
+        status:  -1
+      },
+      spot_20: {
+        status:  -1
+      },
+      spot_21: {
+        status:  -1
+      },
+      spot_22: {
+        status:  -1
+      },
+      spot_23: {
+        status:  -1
+      },
+      spot_24: {
+        status:  -1
+      },
+      spot_25: {
+        status:  -1
+      },
+      spot_26: {
+        status:  -1
+      },
+      spot_27: {
+        status:  -1
+      },
+      spot_28: {
+        status:  -1
+      },
+      spot_29: {
+        status:  -1
+      },
+      spot_30: {
+        status:  -1
+      },
+      spot_31: {
+        status:  -1
+      },
+      spot_32: {
+        status:  -1
+      },
+      spot_33: {
+        status:  -1
+      },
+      spot_34: {
+        status:  -1
+      },
+      spot_35: {
+        status:  -1
+      },
+      spot_36: {
+        status:  -1
+      },
+      spot_37: {
+        status:  -1
+      },
+      spot_38: {
+        status:  -1
+      },
+      spot_39: {
+        status:  -1
+      },
+      spot_40: {
+        status:  -1
+      },
+      spot_41: {
+        status:  -1
+      },
+      spot_42: {
+        status:  -1
+      },
+      spot_43: {
+        status:  -1
+      },
+      spot_44: {
+        status:  -1
+      },
+      spot_45: {
+        status:  -1
+      },
+      spot_46: {
+        status:  -1
+      },
+      spot_47: {
+        status:  -1
+      },
+      spot_48: {
+        status:  -1
+      },
+      spot_49: {
+        status:  -1
+      },
+      spot_50: {
+        status:  -1
+      },
+      spot_51: {
+        status:  -1
+      },
+      spot_52: {
+        status:  -1
+      },
+      spot_53: {
+        status:  -1
+      },
+      spot_54: {
+        status:  -1
+      },
+      spot_55: {
+        status:  -1
+      },
+      spot_56: {
+        status:  -1
+      },
+      spot_57: {
+        status:  -1
+      },
+      spot_58: {
+        status:  -1
+      },
+      spot_59: {
+        status:  -1
+      },
+      spot_60: {
+        status:  -1
+      },
+      spot_61: {
+        status:  -1
+      },
+      spot_62: {
+        status:  -1
+      },
+      spot_63: {
+        status:  -1
+      },
+      spot_64: {
+        status:  -1
+      },
+      spot_65: {
+        status:  -1
+      },
+      spot_66: {
+        status:  -1
+      },
+      spot_67: {
+        status:  -1
+      },
+      spot_68: {
+        status:  -1
+      },
+      spot_69: {
+        status:  -1
+      },
+      spot_70: {
+        status:  -1
+      },
+      spot_71: {
+        status:  -1
+      },
+      spot_72: {
+        status:  -1
+      },
+      spot_73: {
+        status:  -1
+      },
+      spot_74: {
+        status:  -1
+      },
+      spot_75: {
+        status:  -1
+      },
+      spot_76: {
+        status:  -1
+      },
+      spot_77: {
+        status:  -1
+      },
+      spot_78: {
+        status:  -1
+      },
+      spot_79: {
+        status:  -1
+      }
+    },
+    Group_E: {
+      spot_0: {
+        status:  -1
+      },
+      spot_1: {
+        status:  -1
+      },
+      spot_2: {
+        status:  -1
+      },
+      spot_3: {
+        status:  -1
+      },
+      spot_4: {
+        status:  -1
+      },
+      spot_5: {
+        status:  -1
+      },
+      spot_6: {
+        status:  -1
+      },
+      spot_7: {
+        status:  -1
+      },
+      spot_8: {
+        status:  -1
+      },
+      spot_9: {
+        status:  -1
+      },
+      spot_10: {
+        status:  -1
+      },
+      spot_11: {
+        status:  -1
+      },
+      spot_12: {
+        status:  -1
+      },
+      spot_13: {
+        status:  -1
+      },
+      spot_14: {
+        status:  -1
+      },
+      spot_15: {
+        status:  -1
+      },
+      spot_16: {
+        status:  -1
+      },
+      spot_17: {
+        status:  -1
+      },
+      spot_18: {
+        status:  -1
+      },
+      spot_19: {
+        status:  -1
+      },
+      spot_20: {
+        status:  -1
+      },
+      spot_21: {
+        status:  -1
+      },
+      spot_22: {
+        status:  -1
+      },
+      spot_23: {
+        status:  -1
+      },
+      spot_24: {
+        status:  -1
+      },
+      spot_25: {
+        status:  -1
+      },
+      spot_26: {
+        status:  -1
+      },
+      spot_27: {
+        status:  -1
+      },
+      spot_28: {
+        status:  -1
+      },
+      spot_29: {
+        status:  -1
+      },
+      spot_30: {
+        status:  -1
+      },
+      spot_31: {
+        status:  -1
+      },
+      spot_32: {
+        status:  -1
+      },
+      spot_33: {
+        status:  -1
+      },
+      spot_34: {
+        status:  -1
+      },
+      spot_35: {
+        status:  -1
+      },
+      spot_36: {
+        status:  -1
+      },
+      spot_37: {
+        status:  -1
+      },
+      spot_38: {
+        status:  -1
+      },
+      spot_39: {
+        status:  -1
+      },
+      spot_40: {
+        status:  -1
+      },
+      spot_41: {
+        status:  -1
+      },
+      spot_42: {
+        status:  -1
+      },
+      spot_43: {
+        status:  -1
+      },
+      spot_44: {
+        status:  -1
+      },
+      spot_45: {
+        status:  -1
+      },
+      spot_46: {
+        status:  -1
+      },
+      spot_47: {
+        status:  -1
+      },
+      spot_48: {
+        status:  -1
+      },
+      spot_49: {
+        status:  -1
+      },
+      spot_50: {
+        status:  -1
+      },
+      spot_51: {
+        status:  -1
+      },
+      spot_52: {
+        status:  -1
+      },
+      spot_53: {
+        status:  -1
+      },
+      spot_54: {
+        status:  -1
+      },
+      spot_55: {
+        status:  -1
+      },
+      spot_56: {
+        status:  -1
+      },
+      spot_57: {
+        status:  -1
+      },
+      spot_58: {
+        status:  -1
+      },
+      spot_59: {
+        status:  -1
+      },
+      spot_60: {
+        status:  -1
+      },
+      spot_61: {
+        status:  -1
+      },
+      spot_62: {
+        status:  -1
+      },
+      spot_63: {
+        status:  -1
+      },
+      spot_64: {
+        status:  -1
+      },
+      spot_65: {
+        status:  -1
+      },
+      spot_66: {
+        status:  -1
+      },
+      spot_67: {
+        status:  -1
+      },
+      spot_68: {
+        status:  -1
+      },
+      spot_69: {
+        status:  -1
+      },
+      spot_70: {
+        status:  -1
+      },
+      spot_71: {
+        status:  -1
+      },
+      spot_72: {
+        status:  -1
+      },
+      spot_73: {
+        status:  -1
+      },
+      spot_74: {
+        status:  -1
+      },
+      spot_75: {
+        status:  -1
+      },
+      spot_76: {
+        status:  -1
+      },
+      spot_77: {
+        status:  -1
+      },
+      spot_78: {
+        status:  -1
+      },
+      spot_79: {
+        status:  -1
+      }
+    },
+    Group_F: {
+      spot_0: {
+        status:  -1
+      },
+      spot_1: {
+        status:  -1
+      },
+      spot_2: {
+        status:  -1
+      },
+      spot_3: {
+        status:  -1
+      },
+      spot_4: {
+        status:  -1
+      },
+      spot_5: {
+        status:  -1
+      },
+      spot_6: {
+        status:  -1
+      },
+      spot_7: {
+        status:  -1
+      },
+      spot_8: {
+        status:  -1
+      },
+      spot_9: {
+        status:  -1
+      },
+      spot_10: {
+        status:  -1
+      },
+      spot_11: {
+        status:  -1
+      },
+      spot_12: {
+        status:  -1
+      },
+      spot_13: {
+        status:  -1
+      },
+      spot_14: {
+        status:  -1
+      },
+      spot_15: {
+        status:  -1
+      },
+      spot_16: {
+        status:  -1
+      },
+      spot_17: {
+        status:  -1
+      },
+      spot_18: {
+        status:  -1
+      },
+      spot_19: {
+        status:  -1
+      },
+      spot_20: {
+        status:  -1
+      },
+      spot_21: {
+        status:  -1
+      },
+      spot_22: {
+        status:  -1
+      },
+      spot_23: {
+        status:  -1
+      },
+      spot_24: {
+        status:  -1
+      },
+      spot_25: {
+        status:  -1
+      },
+      spot_26: {
+        status:  -1
+      },
+      spot_27: {
+        status:  -1
+      },
+      spot_28: {
+        status:  -1
+      },
+      spot_29: {
+        status:  -1
+      },
+      spot_30: {
+        status:  -1
+      },
+      spot_31: {
+        status:  -1
+      },
+      spot_32: {
+        status:  -1
+      },
+      spot_33: {
+        status:  -1
+      },
+      spot_34: {
+        status:  -1
+      },
+      spot_35: {
+        status:  -1
+      },
+      spot_36: {
+        status:  -1
+      },
+      spot_37: {
+        status:  -1
+      },
+      spot_38: {
+        status:  -1
+      },
+      spot_39: {
+        status:  -1
+      },
+      spot_40: {
+        status:  -1
+      },
+      spot_41: {
+        status:  -1
+      },
+      spot_42: {
+        status:  -1
+      },
+      spot_43: {
+        status:  -1
+      },
+      spot_44: {
+        status:  -1
+      },
+      spot_45: {
+        status:  -1
+      },
+      spot_46: {
+        status:  -1
+      },
+      spot_47: {
+        status:  -1
+      },
+      spot_48: {
+        status:  -1
+      },
+      spot_49: {
+        status:  -1
+      },
+      spot_50: {
+        status:  -1
+      },
+      spot_51: {
+        status:  -1
+      },
+      spot_52: {
+        status:  -1
+      },
+      spot_53: {
+        status:  -1
+      },
+      spot_54: {
+        status:  -1
+      },
+      spot_55: {
+        status:  -1
+      },
+      spot_56: {
+        status:  -1
+      },
+      spot_57: {
+        status:  -1
+      },
+      spot_58: {
+        status:  -1
+      },
+      spot_59: {
+        status:  -1
+      },
+      spot_60: {
+        status:  -1
+      },
+      spot_61: {
+        status:  -1
+      },
+      spot_62: {
+        status:  -1
+      },
+      spot_63: {
+        status:  -1
+      },
+      spot_64: {
+        status:  -1
+      },
+      spot_65: {
+        status:  -1
+      },
+      spot_66: {
+        status:  -1
+      },
+      spot_67: {
+        status:  -1
+      },
+      spot_68: {
+        status:  -1
+      },
+      spot_69: {
+        status:  -1
+      },
+      spot_70: {
+        status:  -1
+      },
+      spot_71: {
+        status:  -1
+      },
+      spot_72: {
+        status:  -1
+      },
+      spot_73: {
+        status:  -1
+      },
+      spot_74: {
+        status:  -1
+      },
+      spot_75: {
+        status:  -1
+      },
+      spot_76: {
+        status:  -1
+      },
+      spot_77: {
+        status:  -1
+      },
+      spot_78: {
+        status:  -1
+      },
+      spot_79: {
+        status:  -1
+      }
+    },
+    Group_G: {
+      spot_0: {
+        status:  -1
+      },
+      spot_1: {
+        status:  -1
+      },
+      spot_2: {
+        status:  -1
+      },
+      spot_3: {
+        status:  -1
+      },
+      spot_4: {
+        status:  -1
+      },
+      spot_5: {
+        status:  -1
+      },
+      spot_6: {
+        status:  -1
+      },
+      spot_7: {
+        status:  -1
+      },
+      spot_8: {
+        status:  -1
+      },
+      spot_9: {
+        status:  -1
+      },
+      spot_10: {
+        status:  -1
+      },
+      spot_11: {
+        status:  -1
+      },
+      spot_12: {
+        status:  -1
+      },
+      spot_13: {
+        status:  -1
+      },
+      spot_14: {
+        status:  -1
+      },
+      spot_15: {
+        status:  -1
+      },
+      spot_16: {
+        status:  -1
+      },
+      spot_17: {
+        status:  -1
+      },
+      spot_18: {
+        status:  -1
+      },
+      spot_19: {
+        status:  -1
+      },
+      spot_20: {
+        status:  -1
+      },
+      spot_21: {
+        status:  -1
+      },
+      spot_22: {
+        status:  -1
+      },
+      spot_23: {
+        status:  -1
+      },
+      spot_24: {
+        status:  -1
+      },
+      spot_25: {
+        status:  -1
+      },
+      spot_26: {
+        status:  -1
+      },
+      spot_27: {
+        status:  -1
+      },
+      spot_28: {
+        status:  -1
+      },
+      spot_29: {
+        status:  -1
+      },
+      spot_30: {
+        status:  -1
+      },
+      spot_31: {
+        status:  -1
+      },
+      spot_32: {
+        status:  -1
+      },
+      spot_33: {
+        status:  -1
+      },
+      spot_34: {
+        status:  -1
+      },
+      spot_35: {
+        status:  -1
+      },
+      spot_36: {
+        status:  -1
+      },
+      spot_37: {
+        status:  -1
+      },
+      spot_38: {
+        status:  -1
+      },
+      spot_39: {
+        status:  -1
+      },
+      spot_40: {
+        status:  -1
+      },
+      spot_41: {
+        status:  -1
+      },
+      spot_42: {
+        status:  -1
+      },
+      spot_43: {
+        status:  -1
+      },
+      spot_44: {
+        status:  -1
+      },
+      spot_45: {
+        status:  -1
+      },
+      spot_46: {
+        status:  -1
+      },
+      spot_47: {
+        status:  -1
+      },
+      spot_48: {
+        status:  -1
+      },
+      spot_49: {
+        status:  -1
+      },
+      spot_50: {
+        status:  -1
+      },
+      spot_51: {
+        status:  -1
+      },
+      spot_52: {
+        status:  -1
+      },
+      spot_53: {
+        status:  -1
+      },
+      spot_54: {
+        status:  -1
+      },
+      spot_55: {
+        status:  -1
+      },
+      spot_56: {
+        status:  -1
+      },
+      spot_57: {
+        status:  -1
+      },
+      spot_58: {
+        status:  -1
+      },
+      spot_59: {
+        status:  -1
+      },
+      spot_60: {
+        status:  -1
+      },
+      spot_61: {
+        status:  -1
+      },
+      spot_62: {
+        status:  -1
+      },
+      spot_63: {
+        status:  -1
+      },
+      spot_64: {
+        status:  -1
+      },
+      spot_65: {
+        status:  -1
+      },
+      spot_66: {
+        status:  -1
+      },
+      spot_67: {
+        status:  -1
+      },
+      spot_68: {
+        status:  -1
+      },
+      spot_69: {
+        status:  -1
+      },
+      spot_70: {
+        status:  -1
+      },
+      spot_71: {
+        status:  -1
+      },
+      spot_72: {
+        status:  -1
+      },
+      spot_73: {
+        status:  -1
+      },
+      spot_74: {
+        status:  -1
+      },
+      spot_75: {
+        status:  -1
+      },
+      spot_76: {
+        status:  -1
+      },
+      spot_77: {
+        status:  -1
+      },
+      spot_78: {
+        status:  -1
+      },
+      spot_79: {
+        status:  -1
+      }
+    },
+    Group_H: {
+      spot_0: {
+        status:  -1
+      },
+      spot_1: {
+        status:  -1
+      },
+      spot_2: {
+        status:  -1
+      },
+      spot_3: {
+        status:  -1
+      },
+      spot_4: {
+        status:  -1
+      },
+      spot_5: {
+        status:  -1
+      },
+      spot_6: {
+        status:  -1
+      },
+      spot_7: {
+        status:  -1
+      },
+      spot_8: {
+        status:  -1
+      },
+      spot_9: {
+        status:  -1
+      },
+      spot_10: {
+        status:  -1
+      },
+      spot_11: {
+        status:  -1
+      },
+      spot_12: {
+        status:  -1
+      },
+      spot_13: {
+        status:  -1
+      },
+      spot_14: {
+        status:  -1
+      },
+      spot_15: {
+        status:  -1
+      },
+      spot_16: {
+        status:  -1
+      },
+      spot_17: {
+        status:  -1
+      },
+      spot_18: {
+        status:  -1
+      },
+      spot_19: {
+        status:  -1
+      },
+      spot_20: {
+        status:  -1
+      },
+      spot_21: {
+        status:  -1
+      },
+      spot_22: {
+        status:  -1
+      },
+      spot_23: {
+        status:  -1
+      },
+      spot_24: {
+        status:  -1
+      },
+      spot_25: {
+        status:  -1
+      },
+      spot_26: {
+        status:  -1
+      },
+      spot_27: {
+        status:  -1
+      },
+      spot_28: {
+        status:  -1
+      },
+      spot_29: {
+        status:  -1
+      },
+      spot_30: {
+        status:  -1
+      },
+      spot_31: {
+        status:  -1
+      },
+      spot_32: {
+        status:  -1
+      },
+      spot_33: {
+        status:  -1
+      },
+      spot_34: {
+        status:  -1
+      },
+      spot_35: {
+        status:  -1
+      },
+      spot_36: {
+        status:  -1
+      },
+      spot_37: {
+        status:  -1
+      },
+      spot_38: {
+        status:  -1
+      },
+      spot_39: {
+        status:  -1
+      },
+      spot_40: {
+        status:  -1
+      },
+      spot_41: {
+        status:  -1
+      },
+      spot_42: {
+        status:  -1
+      },
+      spot_43: {
+        status:  -1
+      },
+      spot_44: {
+        status:  -1
+      },
+      spot_45: {
+        status:  -1
+      },
+      spot_46: {
+        status:  -1
+      },
+      spot_47: {
+        status:  -1
+      },
+      spot_48: {
+        status:  -1
+      },
+      spot_49: {
+        status:  -1
+      },
+      spot_50: {
+        status:  -1
+      },
+      spot_51: {
+        status:  -1
+      },
+      spot_52: {
+        status:  -1
+      },
+      spot_53: {
+        status:  -1
+      },
+      spot_54: {
+        status:  -1
+      },
+      spot_55: {
+        status:  -1
+      },
+      spot_56: {
+        status:  -1
+      },
+      spot_57: {
+        status:  -1
+      },
+      spot_58: {
+        status:  -1
+      },
+      spot_59: {
+        status:  -1
+      },
+      spot_60: {
+        status:  -1
+      },
+      spot_61: {
+        status:  -1
+      },
+      spot_62: {
+        status:  -1
+      },
+      spot_63: {
+        status:  -1
+      },
+      spot_64: {
+        status:  -1
+      },
+      spot_65: {
+        status:  -1
+      },
+      spot_66: {
+        status:  -1
+      },
+      spot_67: {
+        status:  -1
+      },
+      spot_68: {
+        status:  -1
+      },
+      spot_69: {
+        status:  -1
+      },
+      spot_70: {
+        status:  -1
+      },
+      spot_71: {
+        status:  -1
+      },
+      spot_72: {
+        status:  -1
+      },
+      spot_73: {
+        status:  -1
+      },
+      spot_74: {
+        status:  -1
+      },
+      spot_75: {
+        status:  -1
+      },
+      spot_76: {
+        status:  -1
+      },
+      spot_77: {
+        status:  -1
+      },
+      spot_78: {
+        status:  -1
+      },
+      spot_79: {
+        status:  -1
+      }
+    },
+    Group_I: {
+      spot_0: {
+        status:  -1
+      },
+      spot_1: {
+        status:  -1
+      },
+      spot_2: {
+        status:  -1
+      },
+      spot_3: {
+        status:  -1
+      },
+      spot_4: {
+        status:  -1
+      },
+      spot_5: {
+        status:  -1
+      },
+      spot_6: {
+        status:  -1
+      },
+      spot_7: {
+        status:  -1
+      },
+      spot_8: {
+        status:  -1
+      },
+      spot_9: {
+        status:  -1
+      },
+      spot_10: {
+        status:  -1
+      },
+      spot_11: {
+        status:  -1
+      },
+      spot_12: {
+        status:  -1
+      },
+      spot_13: {
+        status:  -1
+      },
+      spot_14: {
+        status:  -1
+      },
+      spot_15: {
+        status:  -1
+      },
+      spot_16: {
+        status:  -1
+      },
+      spot_17: {
+        status:  -1
+      },
+      spot_18: {
+        status:  -1
+      },
+      spot_19: {
+        status:  -1
+      },
+      spot_20: {
+        status:  -1
+      },
+      spot_21: {
+        status:  -1
+      },
+      spot_22: {
+        status:  -1
+      },
+      spot_23: {
+        status:  -1
+      },
+      spot_24: {
+        status:  -1
+      },
+      spot_25: {
+        status:  -1
+      },
+      spot_26: {
+        status:  -1
+      },
+      spot_27: {
+        status:  -1
+      },
+      spot_28: {
+        status:  -1
+      },
+      spot_29: {
+        status:  -1
+      },
+      spot_30: {
+        status:  -1
+      },
+      spot_31: {
+        status:  -1
+      },
+      spot_32: {
+        status:  -1
+      },
+      spot_33: {
+        status:  -1
+      },
+      spot_34: {
+        status:  -1
+      },
+      spot_35: {
+        status:  -1
+      },
+      spot_36: {
+        status:  -1
+      },
+      spot_37: {
+        status:  -1
+      },
+      spot_38: {
+        status:  -1
+      },
+      spot_39: {
+        status:  -1
+      },
+      spot_40: {
+        status:  -1
+      },
+      spot_41: {
+        status:  -1
+      },
+      spot_42: {
+        status:  -1
+      },
+      spot_43: {
+        status:  -1
+      },
+      spot_44: {
+        status:  -1
+      },
+      spot_45: {
+        status:  -1
+      },
+      spot_46: {
+        status:  -1
+      },
+      spot_47: {
+        status:  -1
+      },
+      spot_48: {
+        status:  -1
+      },
+      spot_49: {
+        status:  -1
+      },
+      spot_50: {
+        status:  -1
+      },
+      spot_51: {
+        status:  -1
+      },
+      spot_52: {
+        status:  -1
+      },
+      spot_53: {
+        status:  -1
+      },
+      spot_54: {
+        status:  -1
+      },
+      spot_55: {
+        status:  -1
+      },
+      spot_56: {
+        status:  -1
+      },
+      spot_57: {
+        status:  -1
+      },
+      spot_58: {
+        status:  -1
+      },
+      spot_59: {
+        status:  -1
+      },
+      spot_60: {
+        status:  -1
+      },
+      spot_61: {
+        status:  -1
+      },
+      spot_62: {
+        status:  -1
+      },
+      spot_63: {
+        status:  -1
+      },
+      spot_64: {
+        status:  -1
+      },
+      spot_65: {
+        status:  -1
+      },
+      spot_66: {
+        status:  -1
+      },
+      spot_67: {
+        status:  -1
+      },
+      spot_68: {
+        status:  -1
+      },
+      spot_69: {
+        status:  -1
+      },
+      spot_70: {
+        status:  -1
+      },
+      spot_71: {
+        status:  -1
+      },
+      spot_72: {
+        status:  -1
+      },
+      spot_73: {
+        status:  -1
+      },
+      spot_74: {
+        status:  -1
+      },
+      spot_75: {
+        status:  -1
+      },
+      spot_76: {
+        status:  -1
+      },
+      spot_77: {
+        status:  -1
+      },
+      spot_78: {
+        status:  -1
+      },
+      spot_79: {
+        status:  -1
+      }
+    },
+    Group_J: {
+      spot_0: {
+        status:  -1
+      },
+      spot_1: {
+        status:  -1
+      },
+      spot_2: {
+        status:  -1
+      },
+      spot_3: {
+        status:  -1
+      },
+      spot_4: {
+        status:  -1
+      },
+      spot_5: {
+        status:  -1
+      },
+      spot_6: {
+        status:  -1
+      },
+      spot_7: {
+        status:  -1
+      },
+      spot_8: {
+        status:  -1
+      },
+      spot_9: {
+        status:  -1
+      },
+      spot_10: {
+        status:  -1
+      },
+      spot_11: {
+        status:  -1
+      },
+      spot_12: {
+        status:  -1
+      },
+      spot_13: {
+        status:  -1
+      },
+      spot_14: {
+        status:  -1
+      },
+      spot_15: {
+        status:  -1
+      },
+      spot_16: {
+        status:  -1
+      },
+      spot_17: {
+        status:  -1
+      },
+      spot_18: {
+        status:  -1
+      },
+      spot_19: {
+        status:  -1
+      },
+      spot_20: {
+        status:  -1
+      },
+      spot_21: {
+        status:  -1
+      },
+      spot_22: {
+        status:  -1
+      },
+      spot_23: {
+        status:  -1
+      },
+      spot_24: {
+        status:  -1
+      },
+      spot_25: {
+        status:  -1
+      },
+      spot_26: {
+        status:  -1
+      },
+      spot_27: {
+        status:  -1
+      },
+      spot_28: {
+        status:  -1
+      },
+      spot_29: {
+        status:  -1
+      },
+      spot_30: {
+        status:  -1
+      },
+      spot_31: {
+        status:  -1
+      },
+      spot_32: {
+        status:  -1
+      },
+      spot_33: {
+        status:  -1
+      },
+      spot_34: {
+        status:  -1
+      },
+      spot_35: {
+        status:  -1
+      },
+      spot_36: {
+        status:  -1
+      },
+      spot_37: {
+        status:  -1
+      },
+      spot_38: {
+        status:  -1
+      },
+      spot_39: {
+        status:  -1
+      },
+      spot_40: {
+        status:  -1
+      },
+      spot_41: {
+        status:  -1
+      },
+      spot_42: {
+        status:  -1
+      },
+      spot_43: {
+        status:  -1
+      },
+      spot_44: {
+        status:  -1
+      },
+      spot_45: {
+        status:  -1
+      },
+      spot_46: {
+        status:  -1
+      },
+      spot_47: {
+        status:  -1
+      },
+      spot_48: {
+        status:  -1
+      },
+      spot_49: {
+        status:  -1
+      },
+      spot_50: {
+        status:  -1
+      },
+      spot_51: {
+        status:  -1
+      },
+      spot_52: {
+        status:  -1
+      },
+      spot_53: {
+        status:  -1
+      },
+      spot_54: {
+        status:  -1
+      },
+      spot_55: {
+        status:  -1
+      },
+      spot_56: {
+        status:  -1
+      },
+      spot_57: {
+        status:  -1
+      },
+      spot_58: {
+        status:  -1
+      },
+      spot_59: {
+        status:  -1
+      },
+      spot_60: {
+        status:  -1
+      },
+      spot_61: {
+        status:  -1
+      },
+      spot_62: {
+        status:  -1
+      },
+      spot_63: {
+        status:  -1
+      },
+      spot_64: {
+        status:  -1
+      },
+      spot_65: {
+        status:  -1
+      },
+      spot_66: {
+        status:  -1
+      },
+      spot_67: {
+        status:  -1
+      },
+      spot_68: {
+        status:  -1
+      },
+      spot_69: {
+        status:  -1
+      },
+      spot_70: {
+        status:  -1
+      },
+      spot_71: {
+        status:  -1
+      },
+      spot_72: {
+        status:  -1
+      },
+      spot_73: {
+        status:  -1
+      },
+      spot_74: {
+        status:  -1
+      },
+      spot_75: {
+        status:  -1
+      },
+      spot_76: {
+        status:  -1
+      },
+      spot_77: {
+        status:  -1
+      },
+      spot_78: {
+        status:  -1
+      },
+      spot_79: {
+        status:  -1
+      }
+    }
+  }
     }
   },
   methods: {
@@ -14212,7 +16622,7 @@ export default {
   fill: #66baba;
 }
 #Parking_lot g .ocupied {
-  fill: #a4243b;
+  fill: #808080;
 }
 #Parking_lot g .transient {
   fill: #ff998c;
